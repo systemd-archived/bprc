@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954aac3217e2c6b005b08be3c3ee04c4, type: 3}
+  m_Name: Craft_Machine_Atlas
+  m_EditorClassIdentifier:
+  atlasFile: {fileID: 4900000, guid: 52e0add18b54f824a9e0a2c165c121c9, type: 3}
+  materials:
+  - {fileID: 2100000, guid: de497525986ccce4dafe56c1bf7a0dec, type: 2}

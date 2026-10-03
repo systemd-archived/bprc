@@ -1,0 +1,34 @@
+UIPartButtonAtlas						1024	1024
+
+KickerButton1_Sprite					0		0		72		73		1		1		768
+KickerButton2_Sprite					128		0		72		73		1		1		768
+KickerButton3_Sprite					256		0		72		73		1		1		768
+KickerButton4_Sprite					384		0		72		73		1		1		768
+
+EggButton_Sprite						0		128		80		82		0.7		0.7		768
+PumpkinButton_Sprite					128		128		86		73		0.7		0.7		768
+
+WoodenWingButton_Sprite					0		256		141		48		0.7		0.7		768
+MetalWingButton_Sprite					256		256		143		43		0.7		0.7		768
+WoodenTailButton_Sprite					512		256		100		95		0.7		0.7		768
+MetalTailButton_Sprite					640		256		102		95		0.7		0.7		768
+
+AlienPointLightButton_Sprite			0		384		81		101		0.7		0.7		768
+
+JetEngineButton_Sprite					0		512		154		64		0.7		0.7		768
+JetEngineAllButton_Sprite				256		512		154		100		0.7		0.7		768
+ValveFuelTubeButton_Sprite				512		512		103		64		0.7		0.7		768
+
+SwitchButton_Sprite						0		640		100		42		0.7		0.7		768
+SPDTSwitchButton_Sprite					128		640		90		100		0.7		0.7		768
+VariableResistorButton_Sprite			256		640		80		93		0.7		0.7		768
+VccButton_Sprite						384		640		99		99		0.7		0.7		768
+ElectricFieldGenerator_Sprite			512		640		86		72		0.7		0.7		768
+MagneticFieldGenerator_Sprite			640		640		86		72		0.7		0.7		768
+PointCharge_Sprite          			768		640		80		80		0.7		0.7		768
+
+MechanicalGate_Sprite					0		768		80		80		0.7		0.7		768
+
+SliderButton_UpTrigger_Sprite			0		896		83		48		0.7		0.7		768
+SliderButton_DownTrigger_Sprite			128		896		83		48		0.7		0.7		768
+SliderButton_ResetTrigger_Sprite		256		896		84		84		0.7		0.7		768

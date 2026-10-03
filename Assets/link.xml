@@ -1,0 +1,24 @@
+<linker>
+    <assembly fullname="Assembly-CSharp">
+        <type fullname="StarSeaSettings" preserve="all" />
+        <type fullname="PartAdjustSettings" preserve="all" />
+        <type fullname="INUserSettings" preserve="all" />
+        <type fullname="GeneralSettings" preserve="all" />
+        <type fullname="AppInterfaceSettings" preserve="all" />
+        <type fullname="LevelSceneSettings" preserve="all" />
+        <type fullname="ButtonSettings" preserve="all" />
+        <type fullname="ContraptionDataSettings" preserve="all" />
+        <type fullname="PartSettings" preserve="all" />
+        <type fullname="SettingsBase" preserve="all" />
+        <type fullname="SettingsData" preserve="all" />
+        <type fullname="SettingsItem" preserve="all" />
+        <type fullname="SettingsItemWithToggle" preserve="all" />
+        <type fullname="SettingsItemWithInputField`1" preserve="all" />
+        <type fullname="SettingsGroup" preserve="all" />
+        <type fullname="INSettingsInterface" preserve="all" />
+        <type fullname="INSettings" preserve="all" />
+        <type fullname="INFeature" preserve="all" />
+        <type fullname="Parsable" preserve="all" />
+        <type fullname="HexColor" preserve="all" />
+    </assembly>
+</linker>

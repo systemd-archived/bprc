@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2492827106
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1c14b822ab7e7e3634d0daa6ca92fe3e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a638b0fff6fdb7332354f89330650265
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1c14b822ab7e7e3634d0daa6ca92fe3e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/assetbundles/music_collection.unity3d/ambient_cave.ogg
+- Assets/assetbundles/music_collection.unity3d/CakeRaceMusic.prefab
+- Assets/assetbundles/music_collection.unity3d/BuildingMusic.prefab
+- Assets/assetbundles/music_collection.unity3d/feed_theme.ogg
+- Assets/assetbundles/music_collection.unity3d/main_menu_short.ogg
+- Assets/assetbundles/music_collection.unity3d/MusicTheme.prefab
+- Assets/assetbundles/music_collection.unity3d/FeedingMusic.prefab
+- Assets/assetbundles/music_collection.unity3d/InFlightMusic.prefab
+- Assets/assetbundles/music_collection.unity3d/cakerace.ogg
+- Assets/assetbundles/music_collection.unity3d/LevelSelectionMusic.prefab
+- Assets/assetbundles/music_collection.unity3d/AmbientCave.prefab
+- Assets/assetbundles/music_collection.unity3d/level_selection.ogg
+- Assets/assetbundles/music_collection.unity3d/ABXmasInstrumental.prefab
+- Assets/assetbundles/music_collection.unity3d/AB_Xmas_2016_instrumental_16_44.ogg
+- Assets/assetbundles/music_collection.unity3d/built_test_1.ogg
+Dependencies: []

@@ -1,0 +1,21 @@
+{
+    "name": "Locus.Editor",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Locus.Roslyn.dll",
+        "Locus.Json.dll",
+        "Locus.Detour.dll",
+        "Locus.HotReload.Runtime.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

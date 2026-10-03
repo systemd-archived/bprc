@@ -1,0 +1,61 @@
+#pragma kernel PairForces
+
+struct Body
+{
+    float4 state;
+    int4 meta;
+};
+StructuredBuffer<Body> _Bodies;
+RWStructuredBuffer<float4> _Forces;
+int _Count, _Mode;
+float _Gravity, _Attenuation;
+groupshared Body tile[64];
+
+// Each thread owns one output. Tiled source reads avoid atomics and floating-point write races.
+[numthreads(64, 1, 1)]
+void PairForces(uint3 id : SV_DispatchThreadID, uint3 local : SV_GroupThreadID)
+{
+    uint i = id.x;
+    Body a = (Body)0;
+    if (i < (uint)_Count) a = _Bodies[i];
+    float2 force = 0;
+    bool active = i < (uint)_Count && (a.meta.y & 1) == 0;
+    for (uint start = 0; start < (uint)_Count; start += 64)
+    {
+        uint source = start + local.x;
+        Body next = (Body)0;
+        if (source < (uint)_Count) next = _Bodies[source];
+        tile[local.x] = next;
+        GroupMemoryBarrierWithGroupSync();
+        if (active)
+        {
+            uint length = min(64u, (uint)_Count - start);
+            for (uint j = 0; j < length; j++)
+            {
+                Body b = tile[j];
+                if (start + j == i) continue;
+                float2 delta = b.state.xy - a.state.xy;
+                float sqr = dot(delta, delta);
+                float scale;
+                if (_Mode == 0)
+                {
+                    if (a.meta.x == b.meta.x) continue;
+                    sqr = max(1.0, sqr);
+                    float magnitude = _Gravity * a.state.z * b.state.z / pow(sqr, _Attenuation);
+                    if (magnitude < 0.01) continue;
+                    scale = magnitude * rsqrt(sqr);
+                }
+                else
+                {
+                    if (((a.meta.y | b.meta.y) & 2) != 0 || sqr >= 4096.0) continue;
+                    float distance = max(1.0, sqrt(sqr));
+                    scale = -1.5 * a.state.w * b.state.w / (distance * distance * distance);
+                }
+                force += delta * scale;
+            }
+        }
+        // Threads beyond _Count must still participate in both barriers in a partial group.
+        GroupMemoryBarrierWithGroupSync();
+    }
+    if (i < (uint)_Count) _Forces[i] = float4(force, 0, 0);
+}

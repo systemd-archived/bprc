@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 055a2d8dede1973489d625978abfc88c
+timeCreated: 1778244439
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Frutiger Neue LT W1G
+  - Source Han Sans CN
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 51045678db220bb45ab8875ba40970af, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

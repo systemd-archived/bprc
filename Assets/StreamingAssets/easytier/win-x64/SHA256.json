@@ -1,0 +1,37 @@
+{
+    "easyTierVersion":  "2.6.4",
+    "stagedUtc":  "2026-09-27T09:51:15Z",
+    "platform":  "win-x64",
+    "sourceUrl":  "https://github.com/EasyTier/EasyTier/releases/download/v2.6.4/easytier-windows-x86_64-v2.6.4.zip",
+    "zipSha256":  null,
+    "sourceDirectory":  "C:\\Users\\aecli\\AppData\\Local\\Temp\\et_bin\\easytier-windows-x86_64",
+    "npcapIncluded":  true,
+    "npcapNotice":  "Packet.dll (Npcap) 已暂存。Npcap 不可再分发：对外发布前必须改用 -SkipNpcap，或购买 Npcap OEM 授权。",
+    "files":  [
+                  {
+                      "name":  "easytier-core.exe",
+                      "size":  24395776,
+                      "sha256":  "DA7EB2D24B5416F3D3407636949E964A0750E3F9DC53A828CB6799A57EAD445D"
+                  },
+                  {
+                      "name":  "easytier-cli.exe",
+                      "size":  9973248,
+                      "sha256":  "D8783E851E944B44A9B71B39FD02F227EC0A2A82B3165C55EAD5DD32DCDE53A1"
+                  },
+                  {
+                      "name":  "wintun.dll",
+                      "size":  427552,
+                      "sha256":  "E5DA8447DC2C320EDC0FC52FA01885C103DE8C118481F683643CACC3220DAFCE"
+                  },
+                  {
+                      "name":  "WinDivert64.sys",
+                      "size":  94144,
+                      "sha256":  "8DA085332782708D8767BCACE5327A6EC7283C17CFB85E40B03CD2323A90DDC2"
+                  },
+                  {
+                      "name":  "Packet.dll",
+                      "size":  220032,
+                      "sha256":  "C7C03A87EAC7243CCBE331554624B18803010B740E311FC8CFDDB573096EACAC"
+                  }
+              ]
+}

@@ -1,0 +1,1705 @@
+﻿{
+ "items": [
+  {
+   "name": "ApplicationInterface",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CommandSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "InputSettings",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "UIPartButtonSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "RuntimeGameData",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "NewContraptionData",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "InfiniteTools",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "InfiniteSnoutCoins",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "UnlockLevels",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "UnlockSandBoxes",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "UnlockCustomParts",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoGetCollections",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PropertyPanel",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "EnhancedPropertyPanel",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PropertyPanelColor",
+   "type": {
+    "mainType": "String",
+    "genericArguments": []
+   },
+   "value": "#CCD9FFBF"
+  },
+  {
+   "name": "PropertyPanelFontSize",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 26
+  },
+  {
+   "name": "PropertyPanelOutlineWidth",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.2
+  },
+  {
+   "name": "PropertyPanelOutlineColor",
+   "type": {
+    "mainType": "String",
+    "genericArguments": []
+   },
+   "value": "#1F3066BF"
+  },
+  {
+   "name": "GridSize",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 1
+  },
+  {
+   "name": "InfiniteGrid",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "RenderInfiniteGrid",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PartCounter",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "NewCamera",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CameraInitialZoom",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "CameraMaxZoom",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "CameraPanSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "CameraZoomSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "PartPlacementOperation",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PartDeletionOperation",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PartDeselectionOperation",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoSetPartBuildingIndex",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoSetPartBuildingRotation",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SetBuildingButtonPosition",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PartSelectorScale",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "CancelPartValidation",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CancelPreview",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CancelPigBoundsDetection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "EnableDesserts",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "EnableKingFeedButton",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "EnableWorkShopButton",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "StableRope",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "StableHook",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SaveButton",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoSaveWhenClearingGrid",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "HideDarkMask",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "RotatableCamera",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CameraTargetPartType",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 1
+  },
+  {
+   "name": "DisableCameraAnimation",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "DisableAlienPartParticles",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "TerrainScale",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "EnclosableParts",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "EnginePowerLimit",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "DynamicPowerSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AllDirectionsConnection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "ConnectionStrength",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "NoDrag",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "WaterSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "BuoyancyCoefficient",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 2.0
+  },
+  {
+   "name": "HydraulicCoefficient",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.25
+  },
+  {
+   "name": "WatertightCoefficient",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "WaterMaxFluctuationSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 20.0
+  },
+  {
+   "name": "SeparatedFrame",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "ColoredFrame",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "NonCollisionColoredFrame",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CanColorEnclosedPart",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": true
+  },
+  {
+   "name": "EnclosedPartColorBlend",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.8
+  },
+  {
+   "name": "CanColorSpecialFrames",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": true
+  },
+  {
+   "name": "CanColorAllFrames",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CanColorTransparentFrame",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": true
+  },
+  {
+   "name": "ColoredFrameAlpha",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "ColoredFrameForegroundAlpha",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.4
+  },
+  {
+   "name": "ColoredFrameBackgroundAlpha",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.7
+  },
+  {
+   "name": "TransparentFrameAlpha",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.2
+  },
+  {
+   "name": "TransparentFrameColorDecayRate",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.001
+  },
+  {
+   "name": "TransparentFrameAlphaDecayRate",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.001
+  },
+  {
+   "name": "WoodenBox",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "WoodenBoxMass",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 2.0
+  },
+  {
+   "name": "MetalBox",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "MetalBoxMass",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 4.0
+  },
+  {
+   "name": "BracketFrame",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "FrameJoint",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "NewTimeBombConnection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SpecialEggs",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "GravityEggMass",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 50.0
+  },
+  {
+   "name": "GravityEggForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 256.0
+  },
+  {
+   "name": "GravityEggInnerRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 4.0
+  },
+  {
+   "name": "GravityEggOuterRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": "Infinity"
+  },
+  {
+   "name": "NewAlienEgg",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "OffRoadWheel",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "OffRoadWheelScale",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "NonCollisionOffRoadWheel",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "ReactionFan",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "StableLevitationFan",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "FanForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "FanSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "PropellerForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "PropellerSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RotorForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RotorSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "SwitchableCokeSodaRocket",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CokeSodaForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "CokeSodaSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RocketForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RocketSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "AlienCokeForceValue",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 35.0
+  },
+  {
+   "name": "AlienCokeSpeedValue",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 25.0
+  },
+  {
+   "name": "AlienSodaForceValue",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 150.0
+  },
+  {
+   "name": "AlienSodaSpeedValue",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 150.0
+  },
+  {
+   "name": "RocketExplosionForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RocketExplosionRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RocketExplosionCoolingTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.0
+  },
+  {
+   "name": "AvoidanceRocket",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AvoidanceRocketAngle",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 90.0
+  },
+  {
+   "name": "AvoidanceRocketMaxDistance",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 320.0
+  },
+  {
+   "name": "TrackingRocket",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "TrackingRocketAngle",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 360.0
+  },
+  {
+   "name": "TrackingRocketMaxForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 200.0
+  },
+  {
+   "name": "TrackingRocketMaxDistance",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 320.0
+  },
+  {
+   "name": "SpecialUmbrellas",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "StrongSpringConnection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "StableSpringConnection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "RotatableTNT",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "TNTExplosionForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "TNTExplosionRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "AlienTNTExplosionForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "AlienTNTExplosionRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "AlienTNTExplosionCoolingTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.0
+  },
+  {
+   "name": "AlienTNTTriggerGun",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "BlasterTNT",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "UnbreakableRope",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CollidableRope",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "RopeSegmentCount",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 8
+  },
+  {
+   "name": "HingePlate",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "StableHingePlate",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CanHingePlateConnectComponents",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": true
+  },
+  {
+   "name": "BalloonForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "RotatableBalloon",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "UnpoppableBalloon",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "BalloonConnectionDistance",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 5
+  },
+  {
+   "name": "RotatableSandbag",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SandbagConnectionDistance",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 1
+  },
+  {
+   "name": "RotatableWing",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SwitchableWing",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "RotatableTail",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SwitchableTail",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SwitchableBoxingGlove",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "BoxingGloveLength",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "PartGenerator",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "PartGeneratorForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 80.0
+  },
+  {
+   "name": "PartGeneratorDistances",
+   "type": {
+    "mainType": "Array",
+    "genericArguments": [
+     "Int32"
+    ]
+   },
+   "value": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "name": "PartGeneratorCoolingTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.2
+  },
+  {
+   "name": "PartGeneratorMaxGenerationLevel",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 2
+  },
+  {
+   "name": "MultipartGenerator",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "MultipartGeneratorDistances",
+   "type": {
+    "mainType": "Array",
+    "genericArguments": [
+     "Int32"
+    ]
+   },
+   "value": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "MultipartGeneratorDetectionDistance",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 3
+  },
+  {
+   "name": "InertialGunProjectile",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "GunProjectileDrag",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.0
+  },
+  {
+   "name": "GunProjectileSpeed",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "GunProjectileCoolingTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "GunProjectileForcedCoolingTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.0
+  },
+  {
+   "name": "GunProjectileExplosionTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "GunProjectileExplosionCount",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 1
+  },
+  {
+   "name": "GunProjectileExplosionForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "GunProjectileExplosionRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "AutoGun",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoGunAngle",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 90.0
+  },
+  {
+   "name": "AutoGunMaxDistance",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 160.0
+  },
+  {
+   "name": "AutoGunRandomProbability",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.1
+  },
+  {
+   "name": "RotatablePumpkin",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "FixedPumpkin",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SeparatorConnection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SeparatorConnectionInnerDistance",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 32.0
+  },
+  {
+   "name": "SeparatorConnectionOuterDistance",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 64.0
+  },
+  {
+   "name": "PersistentSeparatorConnection",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoConnector",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "AutoConnectorCoolingTime",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.2
+  },
+  {
+   "name": "AutoConnectorMaxConnectionCount",
+   "type": {
+    "mainType": "Int32",
+    "genericArguments": []
+   },
+   "value": 2
+  },
+  {
+   "name": "MarkerSeparator",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": true
+  },
+  {
+   "name": "RotatableGearbox",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SeparatedPointLightButtons",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SeparatedSpotLightButtons",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "LightSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "LinearLightLength1",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 8.0
+  },
+  {
+   "name": "LinearLightLength2",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 32.0
+  },
+  {
+   "name": "LinearLightWidth1",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.5
+  },
+  {
+   "name": "LinearLightWidth2",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "CircleLightRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 8.0
+  },
+  {
+   "name": "CircleLightWidth",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 0.5
+  },
+  {
+   "name": "CircleLightAngle1",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 90.0
+  },
+  {
+   "name": "CircleLightAngle2",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 180.0
+  },
+  {
+   "name": "AlienLightRadiusLimitFactor",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "LightElectricityFactor",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "LightChargingSpeedFactor",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "ReactionLight",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "SwitchableAlienLight",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "CanLightTriggerExplosion",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "DecelerationLight",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "DecelerationLightForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.5
+  },
+  {
+   "name": "DecelerationLightMaxForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 150.0
+  },
+  {
+   "name": "DecelerationLightInnerRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 4.0
+  },
+  {
+   "name": "DecelerationLightOuterRadius",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 8.0
+  },
+  {
+   "name": "AutoControlLight",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "FuelSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "JetEngineForce",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "JetEngineFlameLength",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "JetEngineFlameWidth",
+   "type": {
+    "mainType": "Single",
+    "genericArguments": []
+   },
+   "value": 1.0
+  },
+  {
+   "name": "ElectricalSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "MechanicalSystem",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "MilitaryFeatures",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "OpenVersionSelector",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  },
+  {
+   "name": "Rc1Controls",
+   "type": {
+    "mainType": "Boolean",
+    "genericArguments": []
+   },
+   "value": false
+  }
+ ]
+}

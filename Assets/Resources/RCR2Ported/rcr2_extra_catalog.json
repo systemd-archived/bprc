@@ -1,0 +1,7806 @@
+{
+ "version": 2,
+ "source": "1.1.0.apk com.mobirate.rcr2.gplay 1.1.0 (Part_Acid_Wheel_Multi, renamed Mecanumwheel) | RC3.apk 导弹(70012)",
+ "parts": [
+  {
+   "id": "part_mecanum_wheel",
+   "asset_name": "Part_Mecanum_Wheel_110_CONF",
+   "display_name": "Mecanumwheel",
+   "description": "来自 RoverCraft 2 1.1.0 的“超级车轮”原型：一个大驱动滚轮带动八个弹性连杆小滚轮的全向设计，物理数据取自 1.1.0 原始预制体。",
+   "category_code": 1,
+   "category": "wheel",
+   "biome": 5,
+   "rarity": 2,
+   "mass": 23.0,
+   "friction": 10.0,
+   "durability": 30.0,
+   "durability_bonus": 8.0,
+   "obstacle_damage": 0.5,
+   "sink_factor_down": -400.0,
+   "use_sink_physics": true,
+   "separate_joint_bodies": false,
+   "consumption": 0.5,
+   "timer": 0,
+   "first_amount": 0,
+   "first_level": 0,
+   "visibility": 1,
+   "model_root": "ME:10",
+   "physics_root": "PE:20",
+   "center": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_center": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "nodes": [
+    {
+     "id": "ME:1",
+     "source_id": 1,
+     "parent": "ME:11",
+     "name": "WheelSprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      0.949999988079071,
+      0.949999988079071,
+      0.949999988079071
+     ]
+    },
+    {
+     "id": "ME:2",
+     "source_id": 2,
+     "parent": "ME:26",
+     "name": "Roller_sprite_8",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:3",
+     "source_id": 3,
+     "parent": "ME:22",
+     "name": "MiniStick_4",
+     "active": true,
+     "position": [
+      0.3409999907016754,
+      -0.328000009059906,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.9885792136192322,
+      0.15070216357707977
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:4",
+     "source_id": 4,
+     "parent": "ME:3",
+     "name": "Roller_sprite_4",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:5",
+     "source_id": 5,
+     "parent": "ME:24",
+     "name": "Roller_sprite_6",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:6",
+     "source_id": 6,
+     "parent": "ME:25",
+     "name": "Point-612632",
+     "active": true,
+     "position": [
+      -0.5,
+      1.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:7",
+     "source_id": 7,
+     "parent": "ME:22",
+     "name": "MiniStick_1",
+     "active": true,
+     "position": [
+      0.0030000002589076757,
+      0.46799999475479126,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.4812583327293396,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:8",
+     "source_id": 8,
+     "parent": "ME:11",
+     "name": "StickSprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.3826834261417389,
+      0.9238795638084412
+     ],
+     "scale": [
+      0.9500000476837158,
+      0.9500000476837158,
+      0.949999988079071
+     ]
+    },
+    {
+     "id": "ME:9",
+     "source_id": 9,
+     "parent": "ME:11",
+     "name": "WheelBaseSprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:10",
+     "source_id": 10,
+     "parent": null,
+     "name": "Part_Acid_Wheel_Multi_ME",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:11",
+     "source_id": 11,
+     "parent": "ME:10",
+     "name": "Model",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:12",
+     "source_id": 12,
+     "parent": "ME:7",
+     "name": "Roller_sprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:13",
+     "source_id": 13,
+     "parent": "ME:25",
+     "name": "Point-598664",
+     "active": true,
+     "position": [
+      -1.0,
+      0.5,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:14",
+     "source_id": 14,
+     "parent": "ME:22",
+     "name": "MiniStick_2",
+     "active": true,
+     "position": [
+      0.32019999623298645,
+      0.34200000762939453,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.7817122936248779,
+      0.6236392259597778
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:15",
+     "source_id": 15,
+     "parent": "ME:14",
+     "name": "Roller_sprite_2",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:16",
+     "source_id": 16,
+     "parent": "ME:10",
+     "name": "PartPolygon",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:17",
+     "source_id": 17,
+     "parent": "ME:22",
+     "name": "MiniStick_3",
+     "active": true,
+     "position": [
+      0.47200000286102295,
+      -0.0040000006556510925,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.9603795409202576,
+      -0.2786954939365387
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:18",
+     "source_id": 18,
+     "parent": "ME:20",
+     "name": "Roller_sprite_7",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:19",
+     "source_id": 19,
+     "parent": "ME:21",
+     "name": "Roller_sprite_5",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:20",
+     "source_id": 20,
+     "parent": "ME:22",
+     "name": "MiniStick_7",
+     "active": true,
+     "position": [
+      -0.48500004410743713,
+      0.016999999061226845,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.31452926993370056,
+      0.9492477774620056
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:21",
+     "source_id": 21,
+     "parent": "ME:22",
+     "name": "MiniStick_5",
+     "active": true,
+     "position": [
+      -0.026000002399086952,
+      -0.43300002813339233,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.8740468621253967,
+      0.48584163188934326
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:22",
+     "source_id": 22,
+     "parent": "ME:11",
+     "name": "Sticks",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      0.949999988079071,
+      0.949999988079071,
+      0.949999988079071
+     ]
+    },
+    {
+     "id": "ME:23",
+     "source_id": 23,
+     "parent": "ME:17",
+     "name": "Roller_sprite_3",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:24",
+     "source_id": 24,
+     "parent": "ME:22",
+     "name": "MiniStick_6",
+     "active": true,
+     "position": [
+      -0.328000009059906,
+      -0.3070000112056732,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.6229570508003235,
+      0.7822560667991638
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:25",
+     "source_id": 25,
+     "parent": "ME:10",
+     "name": "ConnectionPoints",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "ME:26",
+     "source_id": 26,
+     "parent": "ME:22",
+     "name": "MiniStick_8",
+     "active": true,
+     "position": [
+      -0.32100000977516174,
+      0.335999995470047,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.12044165283441544,
+      0.9927204251289368
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:1",
+     "source_id": 1,
+     "parent": "PE:15",
+     "name": "Roller_3",
+     "active": true,
+     "position": [
+      0.7245663404464722,
+      -0.4025229811668396,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:2",
+     "source_id": 2,
+     "parent": "PE:15",
+     "name": "Roller_4",
+     "active": true,
+     "position": [
+      0.200416699051857,
+      -0.7783851027488708,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:3",
+     "source_id": 3,
+     "parent": "PE:15",
+     "name": "Roller_2",
+     "active": true,
+     "position": [
+      0.7802264094352722,
+      0.2371869683265686,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:4",
+     "source_id": 4,
+     "parent": "PE:15",
+     "name": "Roller_8",
+     "active": true,
+     "position": [
+      -0.20817480981349945,
+      0.7941272854804993,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:5",
+     "source_id": 5,
+     "parent": "PE:15",
+     "name": "Roller_1",
+     "active": true,
+     "position": [
+      0.4010811746120453,
+      0.7212615609169006,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:6",
+     "source_id": 6,
+     "parent": "PE:46",
+     "name": "StickSprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.3826834261417389,
+      0.9238795638084412
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:7",
+     "source_id": 7,
+     "parent": "PE:15",
+     "name": "Roller_6",
+     "active": true,
+     "position": [
+      -0.7878429293632507,
+      -0.20138448476791382,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:8",
+     "source_id": 8,
+     "parent": "PE:15",
+     "name": "Roller_7",
+     "active": true,
+     "position": [
+      -0.7667364478111267,
+      0.3954635262489319,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:9",
+     "source_id": 9,
+     "parent": "PE:15",
+     "name": "Roller_5",
+     "active": true,
+     "position": [
+      -0.4267115592956543,
+      -0.682079017162323,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:10",
+     "source_id": 10,
+     "parent": "PE:46",
+     "name": "Sticks",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:11",
+     "source_id": 11,
+     "parent": "PE:31",
+     "name": "Swamp",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:12",
+     "source_id": 12,
+     "parent": "PE:34",
+     "name": "AcidParticles",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:13",
+     "source_id": 13,
+     "parent": "PE:63",
+     "name": "MiniHub_8",
+     "active": true,
+     "position": [
+      -0.32100000977516174,
+      0.335999995470047,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.11580343544483185,
+      -0.9932721853256226
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:14",
+     "source_id": 14,
+     "parent": "PE:34",
+     "name": "XmasParticles",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:15",
+     "source_id": 15,
+     "parent": "PE:46",
+     "name": "Rollers",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:16",
+     "source_id": 16,
+     "parent": "PE:34",
+     "name": "IceParticles",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:17",
+     "source_id": 17,
+     "parent": "PE:57",
+     "name": "FluidCamera",
+     "active": false,
+     "position": [
+      0.0,
+      0.0,
+      -1.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:18",
+     "source_id": 18,
+     "parent": "PE:16",
+     "name": "IceDirtDust",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:19",
+     "source_id": 19,
+     "parent": "PE:59",
+     "name": "Roller_sprite_2",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.7817122936248779,
+      0.6236392259597778
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:20",
+     "source_id": 20,
+     "parent": null,
+     "name": "Part_Acid_Wheel_Multi_PE",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:21",
+     "source_id": 21,
+     "parent": "PE:55",
+     "name": "BrokenPart",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:22",
+     "source_id": 22,
+     "parent": "PE:51",
+     "name": "SandDust",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:23",
+     "source_id": 23,
+     "parent": "PE:64",
+     "name": "Roller_sprite_5",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.8740468621253967,
+      0.48584169149398804
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:24",
+     "source_id": 24,
+     "parent": "PE:12",
+     "name": "AcidGrass",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:25",
+     "source_id": 25,
+     "parent": "PE:34",
+     "name": "CaveParticles",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:26",
+     "source_id": 26,
+     "parent": "PE:63",
+     "name": "MiniHub_2",
+     "active": true,
+     "position": [
+      0.32019999623298645,
+      0.34200000762939453,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.7787908911705017,
+      0.6272836923599243
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:27",
+     "source_id": 27,
+     "parent": "PE:29",
+     "name": "Roller_sprite_3",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      -0.9603795409202576,
+      -0.2786954641342163
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:28",
+     "source_id": 28,
+     "parent": "PE:41",
+     "name": "Roller_sprite_4",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.9885792136192322,
+      0.15070216357707977
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:29",
+     "source_id": 29,
+     "parent": "PE:10",
+     "name": "MiniStick_3",
+     "active": true,
+     "position": [
+      0.47200000286102295,
+      -0.0040000006556510925,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.9603795409202576,
+      -0.2786954641342163
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:30",
+     "source_id": 30,
+     "parent": "PE:14",
+     "name": "CandyBoost_2",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:31",
+     "source_id": 31,
+     "parent": "PE:34",
+     "name": "TerraParticles",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:32",
+     "source_id": 32,
+     "parent": "PE:63",
+     "name": "MiniHub_7",
+     "active": true,
+     "position": [
+      -0.48500001430511475,
+      0.016999997198581696,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.31895971298217773,
+      -0.9477682709693909
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:33",
+     "source_id": 33,
+     "parent": "PE:34",
+     "name": "Fog",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:34",
+     "source_id": 34,
+     "parent": "PE:46",
+     "name": "WheelParticleFX",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:35",
+     "source_id": 35,
+     "parent": "PE:51",
+     "name": "SandGrass",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:36",
+     "source_id": 36,
+     "parent": "PE:10",
+     "name": "MiniStick_7",
+     "active": true,
+     "position": [
+      -0.48500001430511475,
+      0.016999997198581696,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.3145292401313782,
+      0.9492477774620056
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:37",
+     "source_id": 37,
+     "parent": "PE:12",
+     "name": "AcidDirt",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:38",
+     "source_id": 38,
+     "parent": "PE:25",
+     "name": "CaveDirt",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:39",
+     "source_id": 39,
+     "parent": "PE:48",
+     "name": "Roller_sprite_6",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.6229570508003235,
+      0.7822560667991638
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:40",
+     "source_id": 40,
+     "parent": "PE:63",
+     "name": "WheelSprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:41",
+     "source_id": 41,
+     "parent": "PE:10",
+     "name": "MiniStick_4",
+     "active": true,
+     "position": [
+      0.3409999907016754,
+      -0.328000009059906,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.9885792136192322,
+      0.15070216357707977
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:42",
+     "source_id": 42,
+     "parent": "PE:31",
+     "name": "Grass",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:43",
+     "source_id": 43,
+     "parent": "PE:12",
+     "name": "AcidSwamp",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:44",
+     "source_id": 44,
+     "parent": "PE:31",
+     "name": "Dirt",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:45",
+     "source_id": 45,
+     "parent": "PE:16",
+     "name": "IceDirt",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:46",
+     "source_id": 46,
+     "parent": "PE:20",
+     "name": "PartObj",
+     "active": true,
+     "position": [
+      0.0,
+      -0.09300000220537186,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:47",
+     "source_id": 47,
+     "parent": "PE:14",
+     "name": "CandyBoost_1",
+     "active": false,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:48",
+     "source_id": 48,
+     "parent": "PE:10",
+     "name": "MiniStick_6",
+     "active": true,
+     "position": [
+      -0.328000009059906,
+      -0.3070000112056732,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.6229570508003235,
+      0.7822560667991638
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:49",
+     "source_id": 49,
+     "parent": "PE:20",
+     "name": "WheelBaseSprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:50",
+     "source_id": 50,
+     "parent": "PE:54",
+     "name": "Roller_sprite_8",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.12044166773557663,
+      0.9927204251289368
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:51",
+     "source_id": 51,
+     "parent": "PE:34",
+     "name": "SandParticles",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:52",
+     "source_id": 52,
+     "parent": "PE:65",
+     "name": "Roller_sprite",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:53",
+     "source_id": 53,
+     "parent": "PE:63",
+     "name": "MiniHub_6",
+     "active": true,
+     "position": [
+      -0.328000009059906,
+      -0.3070000112056732,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.6266040802001953,
+      -0.7793378233909607
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:54",
+     "source_id": 54,
+     "parent": "PE:10",
+     "name": "MiniStick_8",
+     "active": true,
+     "position": [
+      -0.32100000977516174,
+      0.335999995470047,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.12044166773557663,
+      0.9927204251289368
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:55",
+     "source_id": 55,
+     "parent": "PE:20",
+     "name": "BrokenParts",
+     "active": false,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:56",
+     "source_id": 56,
+     "parent": "PE:51",
+     "name": "SandDirt",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:57",
+     "source_id": 57,
+     "parent": "PE:49",
+     "name": "RoverDirtFX",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:58",
+     "source_id": 58,
+     "parent": "PE:63",
+     "name": "MiniHub_1",
+     "active": true,
+     "position": [
+      0.003000000026077032,
+      0.46799999475479126,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.47715866565704346,
+      0.8788172006607056
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:59",
+     "source_id": 59,
+     "parent": "PE:10",
+     "name": "MiniStick_2",
+     "active": true,
+     "position": [
+      0.32019999623298645,
+      0.34200000762939453,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.7817122936248779,
+      0.6236392259597778
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:60",
+     "source_id": 60,
+     "parent": "PE:63",
+     "name": "MiniHub_4",
+     "active": true,
+     "position": [
+      0.3409999907016754,
+      -0.328000009059906,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.9892723560333252,
+      -0.14608308672904968
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:61",
+     "source_id": 61,
+     "parent": "PE:16",
+     "name": "IceSmooth",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:62",
+     "source_id": 62,
+     "parent": "PE:20",
+     "name": "ChargingFX",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      -0.10000000149011612
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:63",
+     "source_id": 63,
+     "parent": "PE:46",
+     "name": "WheelHub",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:64",
+     "source_id": 64,
+     "parent": "PE:10",
+     "name": "MiniStick_5",
+     "active": true,
+     "position": [
+      -0.026000000536441803,
+      -0.43300002813339233,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.8740468621253967,
+      0.48584169149398804
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:65",
+     "source_id": 65,
+     "parent": "PE:10",
+     "name": "MiniStick_1",
+     "active": true,
+     "position": [
+      0.003000000026077032,
+      0.46799999475479126,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.481258362531662,
+      0.8765788078308105
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:66",
+     "source_id": 66,
+     "parent": "PE:63",
+     "name": "MiniHub_3",
+     "active": true,
+     "position": [
+      0.47200000286102295,
+      -0.0040000006556510925,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.9590672254562378,
+      0.2831784784793854
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:67",
+     "source_id": 67,
+     "parent": "PE:36",
+     "name": "Roller_sprite_7",
+     "active": true,
+     "position": [
+      0.0,
+      0.47181573510169983,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.3145292401313782,
+      0.9492477774620056
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:68",
+     "source_id": 68,
+     "parent": "PE:51",
+     "name": "SandSwamp",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:69",
+     "source_id": 69,
+     "parent": "PE:63",
+     "name": "MiniHub_5",
+     "active": true,
+     "position": [
+      -0.026000000536441803,
+      -0.43300002813339233,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.8763066530227661,
+      -0.48175376653671265
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "id": "PE:70",
+     "source_id": 70,
+     "parent": "PE:51",
+     "name": "SandSwampDust",
+     "active": true,
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "renderers": [
+    {
+     "node": "PE:6",
+     "sprite": {
+      "guid": "11sprite5c6eff785b421adf2952592d",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_1",
+      "texture_guid": "1127e131885b8714885aa01bc988777e",
+      "texture_file": "tex11_1127e131885b8714885aa01bc988777e.png",
+      "texture_width": 62,
+      "texture_height": 133,
+      "x": 0,
+      "y": 0,
+      "width": 62,
+      "height": 133,
+      "pivot_x": 0.5,
+      "pivot_y": 0.23308271169662476,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.31,
+        "y": -0.31000000655651094
+       },
+       {
+        "x": -0.31,
+        "y": 1.0199999934434891
+       },
+       {
+        "x": 0.31,
+        "y": 1.0199999934434891
+       },
+       {
+        "x": 0.31,
+        "y": -0.31000000655651094
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 2,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:19",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:21",
+     "sprite": {
+      "guid": "11sprite8a7a018343a07ac61a457036",
+      "name": "part_terra_wheel_basic_lvla_wheel",
+      "texture_guid": "119735b355bf09e9bafa5ee7e1bc4a94",
+      "texture_file": "tex11_119735b355bf09e9bafa5ee7e1bc4a94.png",
+      "texture_width": 100,
+      "texture_height": 100,
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 100,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.5,
+        "y": -0.5
+       },
+       {
+        "x": -0.5,
+        "y": 0.5
+       },
+       {
+        "x": 0.5,
+        "y": 0.5
+       },
+       {
+        "x": 0.5,
+        "y": -0.5
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 2,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:23",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:27",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:28",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:29",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:36",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:39",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:40",
+     "sprite": {
+      "guid": "11sprite1042d814c1d8cfbca5d0ef4d",
+      "name": "part_acid_wheel_lvla_x8Rollers_BigRoller",
+      "texture_guid": "11039f10352c4e287e05c3c88027337d",
+      "texture_file": "tex11_11039f10352c4e287e05c3c88027337d.png",
+      "texture_width": 106,
+      "texture_height": 102,
+      "x": 0,
+      "y": 0,
+      "width": 106,
+      "height": 102,
+      "pivot_x": 0.5,
+      "pivot_y": 0.480392187833786,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.53,
+        "y": -0.49000003159046174
+       },
+       {
+        "x": -0.53,
+        "y": 0.5299999684095382
+       },
+       {
+        "x": 0.53,
+        "y": 0.5299999684095382
+       },
+       {
+        "x": 0.53,
+        "y": -0.49000003159046174
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 5,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:41",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:48",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:49",
+     "sprite": {
+      "guid": "11sprite187cad20b33b51a0a28e1c6e",
+      "name": "part_acid_wheel_lvla_x8Rollers_main",
+      "texture_guid": "11a012662be0734ac62c031689a66254",
+      "texture_file": "tex11_11a012662be0734ac62c031689a66254.png",
+      "texture_width": 104,
+      "texture_height": 104,
+      "x": 0,
+      "y": 0,
+      "width": 104,
+      "height": 104,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.52,
+        "y": -0.52
+       },
+       {
+        "x": -0.52,
+        "y": 0.52
+       },
+       {
+        "x": 0.52,
+        "y": 0.52
+       },
+       {
+        "x": 0.52,
+        "y": -0.52
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 1,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:50",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:52",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:54",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:59",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:64",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:65",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 2023138041
+    },
+    {
+     "node": "PE:67",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 2023138041
+    }
+   ],
+   "construction_renderers": [
+    {
+     "node": "ME:1",
+     "sprite": {
+      "guid": "11sprite1042d814c1d8cfbca5d0ef4d",
+      "name": "part_acid_wheel_lvla_x8Rollers_BigRoller",
+      "texture_guid": "11039f10352c4e287e05c3c88027337d",
+      "texture_file": "tex11_11039f10352c4e287e05c3c88027337d.png",
+      "texture_width": 106,
+      "texture_height": 102,
+      "x": 0,
+      "y": 0,
+      "width": 106,
+      "height": 102,
+      "pivot_x": 0.5,
+      "pivot_y": 0.480392187833786,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.53,
+        "y": -0.49000003159046174
+       },
+       {
+        "x": -0.53,
+        "y": 0.5299999684095382
+       },
+       {
+        "x": 0.53,
+        "y": 0.5299999684095382
+       },
+       {
+        "x": 0.53,
+        "y": -0.49000003159046174
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 5,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:2",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:3",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:4",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:5",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:7",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:8",
+     "sprite": {
+      "guid": "11sprite5c6eff785b421adf2952592d",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_1",
+      "texture_guid": "1127e131885b8714885aa01bc988777e",
+      "texture_file": "tex11_1127e131885b8714885aa01bc988777e.png",
+      "texture_width": 62,
+      "texture_height": 133,
+      "x": 0,
+      "y": 0,
+      "width": 62,
+      "height": 133,
+      "pivot_x": 0.5,
+      "pivot_y": 0.23308271169662476,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.31,
+        "y": -0.31000000655651094
+       },
+       {
+        "x": -0.31,
+        "y": 1.0199999934434891
+       },
+       {
+        "x": 0.31,
+        "y": 1.0199999934434891
+       },
+       {
+        "x": 0.31,
+        "y": -0.31000000655651094
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 2,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:9",
+     "sprite": {
+      "guid": "11sprite187cad20b33b51a0a28e1c6e",
+      "name": "part_acid_wheel_lvla_x8Rollers_main",
+      "texture_guid": "11a012662be0734ac62c031689a66254",
+      "texture_file": "tex11_11a012662be0734ac62c031689a66254.png",
+      "texture_width": 104,
+      "texture_height": 104,
+      "x": 0,
+      "y": 0,
+      "width": 104,
+      "height": 104,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.52,
+        "y": -0.52
+       },
+       {
+        "x": -0.52,
+        "y": 0.52
+       },
+       {
+        "x": 0.52,
+        "y": 0.52
+       },
+       {
+        "x": 0.52,
+        "y": -0.52
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 0,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:12",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:14",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:15",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:17",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:18",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:19",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:20",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:21",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:23",
+     "sprite": {
+      "guid": "11spritefb517932124f1b39a6c77e77",
+      "name": "part_acid_wheel_lvla_x8Rollers_LittleRoller",
+      "texture_guid": "116ab594e66d70411e25995437509f65",
+      "texture_file": "tex11_116ab594e66d70411e25995437509f65.png",
+      "texture_width": 41,
+      "texture_height": 41,
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 41,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.205,
+        "y": -0.205
+       },
+       {
+        "x": -0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": 0.205
+       },
+       {
+        "x": 0.205,
+        "y": -0.205
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 3,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:24",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    },
+    {
+     "node": "ME:26",
+     "sprite": {
+      "guid": "11sprite7abacafba51c30605f7737b7",
+      "name": "part_acid_wheel_lvla_x8Rollers_part_2",
+      "texture_guid": "1189691609c03d8951c34c49bdf44cac",
+      "texture_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+      "texture_width": 25,
+      "texture_height": 73,
+      "x": 0,
+      "y": 0,
+      "width": 25,
+      "height": 73,
+      "pivot_x": 0.5,
+      "pivot_y": 0.17499999701976776,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.125,
+        "y": -0.12774999782443047
+       },
+       {
+        "x": -0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": 0.6022500021755695
+       },
+       {
+        "x": 0.125,
+        "y": -0.12774999782443047
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 4,
+     "sorting_layer_id": 1323809685
+    }
+   ],
+   "colliders": [
+    {
+     "node": "PE:1",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:2",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:3",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:4",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:5",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:7",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:8",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:9",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.20499999821186066
+    },
+    {
+     "node": "PE:63",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.4650000035762787
+    },
+    {
+     "node": "PE:21",
+     "type": "circle",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      0.0,
+      0.0
+     ],
+     "radius": 0.4399999976158142
+    },
+    {
+     "node": "PE:49",
+     "type": "box",
+     "enabled": true,
+     "trigger": false,
+     "density": 1.0,
+     "offset": [
+      -0.5116068124771118,
+      0.5460422039031982
+     ],
+     "size": [
+      0.8396916389465332,
+      0.7314658164978027
+     ]
+    }
+   ],
+   "bodies": [
+    {
+     "node": "PE:1",
+     "source_id": 142,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:2",
+     "source_id": 143,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:3",
+     "source_id": 144,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:4",
+     "source_id": 145,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:5",
+     "source_id": 146,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:6",
+     "source_id": 147,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:7",
+     "source_id": 148,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:8",
+     "source_id": 149,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:9",
+     "source_id": 150,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:20",
+     "source_id": 151,
+     "mass": 8.0,
+     "linear_drag": 0.0,
+     "angular_drag": 5.0,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:21",
+     "source_id": 152,
+     "mass": 1.0,
+     "linear_drag": 0.0,
+     "angular_drag": 0.05000000074505806,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    },
+    {
+     "node": "PE:63",
+     "source_id": 153,
+     "mass": 6.0,
+     "linear_drag": 0.0,
+     "angular_drag": 5.0,
+     "gravity_scale": 1.0,
+     "body_type": 0,
+     "constraints": 0,
+     "simulated": true
+    }
+   ],
+   "joints": [
+    {
+     "node": "PE:1",
+     "source_id": 223,
+     "type": "SpringJoint",
+     "connected_body": "PE:9",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1847330331802368,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:1",
+     "source_id": 224,
+     "type": "SpringJoint",
+     "connected_body": "PE:5",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1694161891937256,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:2",
+     "source_id": 225,
+     "type": "SpringJoint",
+     "connected_body": "PE:7",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.144371747970581,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:2",
+     "source_id": 226,
+     "type": "SpringJoint",
+     "connected_body": "PE:3",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1694297790527344,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:3",
+     "source_id": 227,
+     "type": "SpringJoint",
+     "connected_body": "PE:2",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1694297790527344,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:3",
+     "source_id": 228,
+     "type": "SpringJoint",
+     "connected_body": "PE:4",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1345129013061523,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:4",
+     "source_id": 229,
+     "type": "SpringJoint",
+     "connected_body": "PE:7",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1519804000854492,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:4",
+     "source_id": 230,
+     "type": "SpringJoint",
+     "connected_body": "PE:3",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1345129013061523,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:5",
+     "source_id": 231,
+     "type": "SpringJoint",
+     "connected_body": "PE:1",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1694161891937256,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:5",
+     "source_id": 232,
+     "type": "SpringJoint",
+     "connected_body": "PE:8",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.2124117612838745,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:7",
+     "source_id": 233,
+     "type": "SpringJoint",
+     "connected_body": "PE:4",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1519804000854492,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:7",
+     "source_id": 234,
+     "type": "SpringJoint",
+     "connected_body": "PE:2",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.144371747970581,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:8",
+     "source_id": 235,
+     "type": "SpringJoint",
+     "connected_body": "PE:9",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.129918098449707,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:8",
+     "source_id": 236,
+     "type": "SpringJoint",
+     "connected_body": "PE:5",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.2124117612838745,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:9",
+     "source_id": 237,
+     "type": "SpringJoint",
+     "connected_body": "PE:8",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.129918098449707,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:9",
+     "source_id": 238,
+     "type": "SpringJoint",
+     "connected_body": "PE:1",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 2.0,
+     "damping_ratio": 0.20000000298023224,
+     "distance": 1.1847330331802368,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:6",
+     "source_id": 239,
+     "type": "SpringJoint",
+     "connected_body": "PE:20",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      -0.09300000220537186
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 25.0,
+     "damping_ratio": 0.0,
+     "distance": 0.004999999888241291,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:3",
+     "source_id": 240,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.3329007625579834,
+      0.332734614610672
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.45741620659828186,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:2",
+     "source_id": 241,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.335761696100235,
+      -0.3314917981624603
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.466938853263855,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:8",
+     "source_id": 242,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.4712279438972473,
+      0.010465234518051147
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.4853338599205017,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:5",
+     "source_id": 243,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0018787086009979248,
+      0.4736018776893616
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.46978500485420227,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:7",
+     "source_id": 244,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.3427647650241852,
+      -0.332837849855423
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.464084655046463,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:9",
+     "source_id": 245,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.03820466995239258,
+      -0.39758923649787903
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.5450518727302551,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:1",
+     "source_id": 246,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.4695471525192261,
+      0.004693962633609772
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.48047935962677,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:4",
+     "source_id": 247,
+     "type": "SpringJoint",
+     "connected_body": "PE:63",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.3309909701347351,
+      0.34360989928245544
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 11.0,
+     "damping_ratio": 1.0,
+     "distance": 0.4669579565525055,
+     "auto_configure_distance": true,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:1",
+     "source_id": 248,
+     "type": "DistanceJoint",
+     "connected_body": "PE:2",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6449846625328064,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:2",
+     "source_id": 249,
+     "type": "DistanceJoint",
+     "connected_body": "PE:9",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6344798803329468,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:3",
+     "source_id": 250,
+     "type": "DistanceJoint",
+     "connected_body": "PE:1",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6421268582344055,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:4",
+     "source_id": 251,
+     "type": "DistanceJoint",
+     "connected_body": "PE:5",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6135978102684021,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:5",
+     "source_id": 252,
+     "type": "DistanceJoint",
+     "connected_body": "PE:3",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6148815751075745,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:7",
+     "source_id": 253,
+     "type": "DistanceJoint",
+     "connected_body": "PE:8",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.5972210764884949,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:8",
+     "source_id": 254,
+     "type": "DistanceJoint",
+     "connected_body": "PE:4",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6862389445304871,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:9",
+     "source_id": 255,
+     "type": "DistanceJoint",
+     "connected_body": "PE:7",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.6012346148490906,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 0.0,
+     "max_motor_torque": 0.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:1",
+     "source_id": 256,
+     "type": "HingeJoint",
+     "connected_body": "PE:2",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.5241496562957764,
+      0.37586212158203125
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:2",
+     "source_id": 257,
+     "type": "HingeJoint",
+     "connected_body": "PE:9",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.6271282434463501,
+      -0.09630608558654785
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:3",
+     "source_id": 258,
+     "type": "HingeJoint",
+     "connected_body": "PE:1",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.05566006898880005,
+      0.6397099494934082
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:4",
+     "source_id": 259,
+     "type": "HingeJoint",
+     "connected_body": "PE:5",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.6092559695243835,
+      0.07286572456359863
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:5",
+     "source_id": 260,
+     "type": "HingeJoint",
+     "connected_body": "PE:3",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.37914523482322693,
+      0.48407459259033203
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:6",
+     "source_id": 261,
+     "type": "HingeJoint",
+     "connected_body": "PE:20",
+     "enabled": true,
+     "anchor": [
+      -0.0007486892282031476,
+      0.7242122292518616
+     ],
+     "connected_anchor": [
+      -0.5126248002052307,
+      0.4185659885406494
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:7",
+     "source_id": 262,
+     "type": "HingeJoint",
+     "connected_body": "PE:8",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.021106481552124023,
+      -0.5968480110168457
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:8",
+     "source_id": 263,
+     "type": "HingeJoint",
+     "connected_body": "PE:4",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      -0.5585616230964661,
+      -0.3986637592315674
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:9",
+     "source_id": 264,
+     "type": "HingeJoint",
+     "connected_body": "PE:7",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.36113137006759644,
+      -0.4806945323944092
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:63",
+     "source_id": 265,
+     "type": "HingeJoint",
+     "connected_body": "PE:6",
+     "enabled": true,
+     "anchor": [
+      0.0,
+      0.0
+     ],
+     "connected_anchor": [
+      0.0,
+      0.0
+     ],
+     "auto_configure_connected_anchor": true,
+     "enable_collision": false,
+     "angle": 0.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 0.0,
+     "max_motor_force": 10000.0,
+     "max_motor_torque": 10000.0,
+     "use_motor": false
+    },
+    {
+     "node": "PE:20",
+     "source_id": 266,
+     "type": "SliderJoint",
+     "connected_body": null,
+     "enabled": false,
+     "anchor": [
+      0.0,
+      -0.09299993515014648
+     ],
+     "connected_anchor": [
+      0.0,
+      2.9070000648498535
+     ],
+     "auto_configure_connected_anchor": false,
+     "enable_collision": false,
+     "angle": -90.0,
+     "use_limits": false,
+     "lower_limit": 0.0,
+     "upper_limit": 0.0,
+     "frequency": 0.0,
+     "damping_ratio": 0.0,
+     "distance": 0.0,
+     "auto_configure_distance": false,
+     "max_distance_only": false,
+     "motor_speed": 2.0,
+     "max_motor_force": 50.0,
+     "max_motor_torque": 50.0,
+     "use_motor": false
+    }
+   ],
+   "motion": {
+    "kind": "wheel",
+    "power": 0.0,
+    "consumption": 0.5,
+    "force": 0.0,
+    "max_speed": 900.0,
+    "reverse_max_speed": 700.0,
+    "acceleration": 0.0,
+    "deceleration": 0.0,
+    "input_multiplier": 0.0,
+    "torque": 1000.0,
+    "friction": 10.0,
+    "capacity": 0.0,
+    "wheel_bodies": [
+     "PE:63"
+    ],
+    "contact_bodies": [
+     "PE:3",
+     "PE:2",
+     "PE:8",
+     "PE:5",
+     "PE:7",
+     "PE:9",
+     "PE:1",
+     "PE:4"
+    ]
+   },
+   "icon": {
+    "guid": "11spriteeddd3fb21fe4720ab60311db",
+    "name": "part_acid_wheel_multi_lvl0_Icon",
+    "texture_guid": "115bac20cc91ae0e7da6607775d2e893",
+    "texture_file": "tex11_115bac20cc91ae0e7da6607775d2e893.png",
+    "texture_width": 167,
+    "texture_height": 167,
+    "x": 0,
+    "y": 0,
+    "width": 167,
+    "height": 167,
+    "pivot_x": 0.5,
+    "pivot_y": 0.5,
+    "ppu": 100.0,
+    "vertices": [
+     {
+      "x": -0.835,
+      "y": -0.835
+     },
+     {
+      "x": -0.835,
+      "y": 0.835
+     },
+     {
+      "x": 0.835,
+      "y": 0.835
+     },
+     {
+      "x": 0.835,
+      "y": -0.835
+     }
+    ],
+    "uvs": [
+     {
+      "x": 0.0,
+      "y": 0.0
+     },
+     {
+      "x": 0.0,
+      "y": 1.0
+     },
+     {
+      "x": 1.0,
+      "y": 1.0
+     },
+     {
+      "x": 1.0,
+      "y": 0.0
+     }
+    ],
+    "triangles": [
+     0,
+     1,
+     2,
+     0,
+     2,
+     3
+    ]
+   },
+   "followers": [
+    {
+     "node": "PE:19",
+     "target": "PE:3",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:23",
+     "target": "PE:9",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:27",
+     "target": "PE:1",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:28",
+     "target": "PE:2",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:39",
+     "target": "PE:7",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:50",
+     "target": "PE:4",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:52",
+     "target": "PE:5",
+     "follow_position": false,
+     "follow_rotation": true
+    },
+    {
+     "node": "PE:67",
+     "target": "PE:8",
+     "follow_position": false,
+     "follow_rotation": true
+    }
+   ],
+   "stick_rotators": [
+    {
+     "node": "PE:29",
+     "point_a": "PE:66",
+     "point_b": "PE:1"
+    },
+    {
+     "node": "PE:36",
+     "point_a": "PE:32",
+     "point_b": "PE:8"
+    },
+    {
+     "node": "PE:41",
+     "point_a": "PE:60",
+     "point_b": "PE:2"
+    },
+    {
+     "node": "PE:48",
+     "point_a": "PE:53",
+     "point_b": "PE:7"
+    },
+    {
+     "node": "PE:54",
+     "point_a": "PE:13",
+     "point_b": "PE:4"
+    },
+    {
+     "node": "PE:59",
+     "point_a": "PE:26",
+     "point_b": "PE:3"
+    },
+    {
+     "node": "PE:64",
+     "point_a": "PE:69",
+     "point_b": "PE:9"
+    },
+    {
+     "node": "PE:65",
+     "point_a": "PE:58",
+     "point_b": "PE:5"
+    }
+   ],
+   "suspension": {
+    "use_spring": false,
+    "slider_joint": false,
+    "lower_translation": -0.15000000596046448,
+    "upper_translation": 0.15000000596046448,
+    "force_curve_keys": 0,
+    "damping_curve_keys": 0,
+    "hub_hinge": false,
+    "angle": 90.0,
+    "breaking": 2500.0
+   },
+   "grid": {
+    "phase": [
+     0.5,
+     0.5
+    ],
+    "shift": [
+     0.5,
+     -0.5
+    ],
+    "cells": {
+     "xmin": 0,
+     "xmax": 1,
+     "ymin": -1,
+     "ymax": 0
+    },
+    "confidence": 1.3126,
+    "misfit": 0.0842,
+    "atypical_mounts": 0,
+    "mount_points": 2,
+    "locked": ""
+   }
+  }
+ ],
+ "textures": [
+  {
+   "guid": "11039f10352c4e287e05c3c88027337d",
+   "canonical_file": "tex11_11039f10352c4e287e05c3c88027337d.png",
+   "width": 106,
+   "height": 102
+  },
+  {
+   "guid": "1124a1486a62ea281f43fc5d79bf21fe",
+   "canonical_file": "tex11_1124a1486a62ea281f43fc5d79bf21fe.png",
+   "width": 172,
+   "height": 163
+  },
+  {
+   "guid": "1127e131885b8714885aa01bc988777e",
+   "canonical_file": "tex11_1127e131885b8714885aa01bc988777e.png",
+   "width": 62,
+   "height": 133
+  },
+  {
+   "guid": "115bac20cc91ae0e7da6607775d2e893",
+   "canonical_file": "tex11_115bac20cc91ae0e7da6607775d2e893.png",
+   "width": 167,
+   "height": 167
+  },
+  {
+   "guid": "116ab594e66d70411e25995437509f65",
+   "canonical_file": "tex11_116ab594e66d70411e25995437509f65.png",
+   "width": 41,
+   "height": 41
+  },
+  {
+   "guid": "116b3cdca1cb675f687ec6f43c7a6179",
+   "canonical_file": "tex11_116b3cdca1cb675f687ec6f43c7a6179.png",
+   "width": 90,
+   "height": 193
+  },
+  {
+   "guid": "1189691609c03d8951c34c49bdf44cac",
+   "canonical_file": "tex11_1189691609c03d8951c34c49bdf44cac.png",
+   "width": 25,
+   "height": 73
+  },
+  {
+   "guid": "119735b355bf09e9bafa5ee7e1bc4a94",
+   "canonical_file": "tex11_119735b355bf09e9bafa5ee7e1bc4a94.png",
+   "width": 100,
+   "height": 100
+  },
+  {
+   "guid": "119e1059379c1f45d4ee74569d743b28",
+   "canonical_file": "tex11_119e1059379c1f45d4ee74569d743b28.png",
+   "width": 104,
+   "height": 104
+  },
+  {
+   "guid": "11a012662be0734ac62c031689a66254",
+   "canonical_file": "tex11_11a012662be0734ac62c031689a66254.png",
+   "width": 104,
+   "height": 104
+  },
+  {
+   "guid": "11c43d2bfdc6e86874067197b3eb0bed",
+   "canonical_file": "tex11_11c43d2bfdc6e86874067197b3eb0bed.png",
+   "width": 201,
+   "height": 68
+  }
+ ],
+ "overrides": [
+  {
+   "part": "part_acid_gyroplatform",
+   "special": "gyroplatform",
+   "nodes": [
+    {
+     "node": "Platform_base",
+     "position": [
+      -0.2548,
+      -0.2548,
+      0.0
+     ]
+    },
+    {
+     "node": "platfrom",
+     "position": [
+      0.0,
+      1.194000005722046,
+      0.0
+     ]
+    },
+    {
+     "node": "stick",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "node": "part_acid_platform_stick",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "node": "BrokenPart1",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "node": "BrokenPart2",
+     "position": [
+      0.024000000208616257,
+      1.2170000076293945,
+      0.0
+     ]
+    },
+    {
+     "node": "BrokenPart3",
+     "position": [
+      -0.2548,
+      -0.2548,
+      0.0
+     ]
+    },
+    {
+     "node": "part_acid_platform",
+     "position": [
+      0.0,
+      1.178999900817871,
+      0.0
+     ]
+    },
+    {
+     "node": "part_acid_platform_base",
+     "position": [
+      -0.2548,
+      -0.2548,
+      0.0
+     ]
+    }
+   ],
+   "renderers": [
+    {
+     "node": "part_acid_platform_stick",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11spritee91e00f9c5dca24897628d8a",
+      "name": "part_acid_platform_lvla_part_2",
+      "texture_guid": "116b3cdca1cb675f687ec6f43c7a6179",
+      "texture_file": "tex11_116b3cdca1cb675f687ec6f43c7a6179.png",
+      "texture_width": 90,
+      "texture_height": 193,
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 193,
+      "pivot_x": 0.5,
+      "pivot_y": 0.22599999606609344,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.45,
+        "y": -0.43617999240756034
+       },
+       {
+        "x": -0.45,
+        "y": 1.4938200075924395
+       },
+       {
+        "x": 0.45,
+        "y": 1.4938200075924395
+       },
+       {
+        "x": 0.45,
+        "y": -0.43617999240756034
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 2
+    },
+    {
+     "node": "BrokenPart1",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11spritee91e00f9c5dca24897628d8a",
+      "name": "part_acid_platform_lvla_part_2",
+      "texture_guid": "116b3cdca1cb675f687ec6f43c7a6179",
+      "texture_file": "tex11_116b3cdca1cb675f687ec6f43c7a6179.png",
+      "texture_width": 90,
+      "texture_height": 193,
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 193,
+      "pivot_x": 0.5,
+      "pivot_y": 0.22599999606609344,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.45,
+        "y": -0.43617999240756034
+       },
+       {
+        "x": -0.45,
+        "y": 1.4938200075924395
+       },
+       {
+        "x": 0.45,
+        "y": 1.4938200075924395
+       },
+       {
+        "x": 0.45,
+        "y": -0.43617999240756034
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 0
+    },
+    {
+     "node": "BrokenPart2",
+     "position": [
+      0.024000000208616257,
+      1.2170000076293945,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11sprite6bacd91b72a9135553417bb2",
+      "name": "part_acid_platform_lvla_part_1",
+      "texture_guid": "11c43d2bfdc6e86874067197b3eb0bed",
+      "texture_file": "tex11_11c43d2bfdc6e86874067197b3eb0bed.png",
+      "texture_width": 201,
+      "texture_height": 68,
+      "x": 0,
+      "y": 0,
+      "width": 201,
+      "height": 68,
+      "pivot_x": 0.25,
+      "pivot_y": 0.47999998927116394,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.5025,
+        "y": -0.32639999270439146
+       },
+       {
+        "x": -0.5025,
+        "y": 0.3536000072956086
+       },
+       {
+        "x": 1.5074999999999998,
+        "y": 0.3536000072956086
+       },
+       {
+        "x": 1.5074999999999998,
+        "y": -0.32639999270439146
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 0
+    },
+    {
+     "node": "BrokenPart3",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11sprite64ccbe9b9a8b33dbe3b47872",
+      "name": "part_acid_platform_lvla_main",
+      "texture_guid": "119e1059379c1f45d4ee74569d743b28",
+      "texture_file": "tex11_119e1059379c1f45d4ee74569d743b28.png",
+      "texture_width": 104,
+      "texture_height": 104,
+      "x": 0,
+      "y": 0,
+      "width": 104,
+      "height": 104,
+      "pivot_x": 0.2549999952316284,
+      "pivot_y": 0.2549999952316284,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.26519999504089353,
+        "y": -0.26519999504089353
+       },
+       {
+        "x": -0.26519999504089353,
+        "y": 0.7748000049591065
+       },
+       {
+        "x": 0.7748000049591065,
+        "y": 0.7748000049591065
+       },
+       {
+        "x": 0.7748000049591065,
+        "y": -0.26519999504089353
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 1
+    },
+    {
+     "node": "part_acid_platform",
+     "position": [
+      0.0,
+      1.178999900817871,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11sprite6bacd91b72a9135553417bb2",
+      "name": "part_acid_platform_lvla_part_1",
+      "texture_guid": "11c43d2bfdc6e86874067197b3eb0bed",
+      "texture_file": "tex11_11c43d2bfdc6e86874067197b3eb0bed.png",
+      "texture_width": 201,
+      "texture_height": 68,
+      "x": 0,
+      "y": 0,
+      "width": 201,
+      "height": 68,
+      "pivot_x": 0.25,
+      "pivot_y": 0.47999998927116394,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.5025,
+        "y": -0.32639999270439146
+       },
+       {
+        "x": -0.5025,
+        "y": 0.3536000072956086
+       },
+       {
+        "x": 1.5074999999999998,
+        "y": 0.3536000072956086
+       },
+       {
+        "x": 1.5074999999999998,
+        "y": -0.32639999270439146
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 1
+    },
+    {
+     "node": "part_acid_platform_base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11sprite64ccbe9b9a8b33dbe3b47872",
+      "name": "part_acid_platform_lvla_main",
+      "texture_guid": "119e1059379c1f45d4ee74569d743b28",
+      "texture_file": "tex11_119e1059379c1f45d4ee74569d743b28.png",
+      "texture_width": 104,
+      "texture_height": 104,
+      "x": 0,
+      "y": 0,
+      "width": 104,
+      "height": 104,
+      "pivot_x": 0.2549999952316284,
+      "pivot_y": 0.2549999952316284,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.26519999504089353,
+        "y": -0.26519999504089353
+       },
+       {
+        "x": -0.26519999504089353,
+        "y": 0.7748000049591065
+       },
+       {
+        "x": 0.7748000049591065,
+        "y": 0.7748000049591065
+       },
+       {
+        "x": 0.7748000049591065,
+        "y": -0.26519999504089353
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 1
+    }
+   ],
+   "construction_renderers": [
+    {
+     "node": "Platform_base",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11sprite64ccbe9b9a8b33dbe3b47872",
+      "name": "part_acid_platform_lvla_main",
+      "texture_guid": "119e1059379c1f45d4ee74569d743b28",
+      "texture_file": "tex11_119e1059379c1f45d4ee74569d743b28.png",
+      "texture_width": 104,
+      "texture_height": 104,
+      "x": 0,
+      "y": 0,
+      "width": 104,
+      "height": 104,
+      "pivot_x": 0.2549999952316284,
+      "pivot_y": 0.2549999952316284,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.26519999504089353,
+        "y": -0.26519999504089353
+       },
+       {
+        "x": -0.26519999504089353,
+        "y": 0.7748000049591065
+       },
+       {
+        "x": 0.7748000049591065,
+        "y": 0.7748000049591065
+       },
+       {
+        "x": 0.7748000049591065,
+        "y": -0.26519999504089353
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 1
+    },
+    {
+     "node": "platfrom",
+     "position": [
+      0.0,
+      1.194000005722046,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11sprite6bacd91b72a9135553417bb2",
+      "name": "part_acid_platform_lvla_part_1",
+      "texture_guid": "11c43d2bfdc6e86874067197b3eb0bed",
+      "texture_file": "tex11_11c43d2bfdc6e86874067197b3eb0bed.png",
+      "texture_width": 201,
+      "texture_height": 68,
+      "x": 0,
+      "y": 0,
+      "width": 201,
+      "height": 68,
+      "pivot_x": 0.25,
+      "pivot_y": 0.47999998927116394,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.5025,
+        "y": -0.32639999270439146
+       },
+       {
+        "x": -0.5025,
+        "y": 0.3536000072956086
+       },
+       {
+        "x": 1.5074999999999998,
+        "y": 0.3536000072956086
+       },
+       {
+        "x": 1.5074999999999998,
+        "y": -0.32639999270439146
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 1
+    },
+    {
+     "node": "stick",
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "sprite": {
+      "guid": "11spritee91e00f9c5dca24897628d8a",
+      "name": "part_acid_platform_lvla_part_2",
+      "texture_guid": "116b3cdca1cb675f687ec6f43c7a6179",
+      "texture_file": "tex11_116b3cdca1cb675f687ec6f43c7a6179.png",
+      "texture_width": 90,
+      "texture_height": 193,
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 193,
+      "pivot_x": 0.5,
+      "pivot_y": 0.22599999606609344,
+      "ppu": 100.0,
+      "vertices": [
+       {
+        "x": -0.45,
+        "y": -0.43617999240756034
+       },
+       {
+        "x": -0.45,
+        "y": 1.4938200075924395
+       },
+       {
+        "x": 0.45,
+        "y": 1.4938200075924395
+       },
+       {
+        "x": 0.45,
+        "y": -0.43617999240756034
+       }
+      ],
+      "uvs": [
+       {
+        "x": 0.0,
+        "y": 0.0
+       },
+       {
+        "x": 0.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 1.0
+       },
+       {
+        "x": 1.0,
+        "y": 0.0
+       }
+      ],
+      "triangles": [
+       0,
+       1,
+       2,
+       0,
+       2,
+       3
+      ]
+     },
+     "flip_x": false,
+     "flip_y": false,
+     "enabled": true,
+     "sorting_order": 2
+    }
+   ],
+   "icon": {
+    "guid": "11sprite696f232a0f68c29f1d947b9a",
+    "name": "part_acid_gyroplatform_lvl0_icon",
+    "texture_guid": "1124a1486a62ea281f43fc5d79bf21fe",
+    "texture_file": "tex11_1124a1486a62ea281f43fc5d79bf21fe.png",
+    "texture_width": 172,
+    "texture_height": 163,
+    "x": 0,
+    "y": 0,
+    "width": 172,
+    "height": 163,
+    "pivot_x": 0.5,
+    "pivot_y": 0.5,
+    "ppu": 100.0,
+    "vertices": [
+     {
+      "x": -0.86,
+      "y": -0.815
+     },
+     {
+      "x": -0.86,
+      "y": 0.815
+     },
+     {
+      "x": 0.86,
+      "y": 0.815
+     },
+     {
+      "x": 0.86,
+      "y": -0.815
+     }
+    ],
+    "uvs": [
+     {
+      "x": 0.0,
+      "y": 0.0
+     },
+     {
+      "x": 0.0,
+      "y": 1.0
+     },
+     {
+      "x": 1.0,
+      "y": 1.0
+     },
+     {
+      "x": 1.0,
+      "y": 0.0
+     }
+    ],
+    "triangles": [
+     0,
+     1,
+     2,
+     0,
+     2,
+     3
+    ]
+   },
+   "mounts": [
+    {
+     "point": "Point-1669840",
+     "body": "part_acid_platform"
+    },
+    {
+     "point": "Point-1670258",
+     "body": "part_acid_platform"
+    }
+   ],
+   "muscles": {
+    "stick_node": "part_acid_platform_stick",
+    "platform_node": "part_acid_platform",
+    "stick": {
+     "target_angle": 0.0,
+     "force": 50.0,
+     "enabled": true,
+     "use_velocity_change": true,
+     "use_force_change": false,
+     "torque_multiplier": 300.0,
+     "torque_curve": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 360.0,
+       "value": 1000.0
+      }
+     ]
+    },
+    "platform": {
+     "target_angle": 0.0,
+     "force": 50.0,
+     "enabled": true,
+     "use_velocity_change": true,
+     "use_force_change": false,
+     "torque_multiplier": 500.0,
+     "torque_curve": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 360.0,
+       "value": 1000.0
+      }
+     ]
+    },
+    "mass_multiplier": 20.0
+   }
+  }
+ ]
+}

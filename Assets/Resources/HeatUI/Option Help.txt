@@ -1,0 +1,165 @@
+GeneralSettings_GravityX	设置水平方向的重力加速度；负值向左，正值向右。	Set horizontal gravity acceleration. Negative pulls left; positive pulls right.
+GeneralSettings_GravityY	设置垂直方向的重力加速度；负值向下，正值向上。	Set vertical gravity acceleration. Negative pulls down; positive pulls up.
+GeneralSettings_TimeScale	调整游戏时间流逝速度。1 为正常速度，较小的值用于慢动作。	Change simulation speed. 1 is normal speed; smaller values produce slow motion.
+GeneralSettings_FullScreen	在全屏与窗口显示之间切换。	Switch between fullscreen and windowed display.
+AppInterfaceSettings_EnterButtonPositionX	移动原版界面入口按钮的水平位置。	Move the original interface entry button horizontally.
+AppInterfaceSettings_EnterButtonPositionY	移动原版界面入口按钮的垂直位置。	Move the original interface entry button vertically.
+AppInterfaceSettings_EnterButtonAlpha	调整界面入口按钮的不透明度；0 为透明，1 为完全可见。	Set the entry button opacity: 0 is transparent and 1 is fully visible.
+LevelSceneSettings_TerrainScale	缩放关卡地形，改变地形在世界中的大小。	Scale the level terrain in world space.
+LevelSceneSettings_MinCameraScale	限制摄像机可以缩小到的最小视野范围。	Set the minimum permitted camera field of view scale.
+LevelSceneSettings_MaxCameraScale	限制摄像机可以扩大到的最大视野范围。	Set the maximum permitted camera field of view scale.
+LevelSceneSettings_HideRuntimeButtons	隐藏运行阶段的界面按钮；部件自身的操作按钮保留。	Hide interface buttons during simulation while keeping part controls available.
+LevelSceneSettings_HideStarAndDessertCounter	隐藏星盒与甜点的收集计数显示。	Hide the star and dessert collection counters.
+LevelSceneSettings_EnablePropertyPanel	显示部件属性界面，便于查看和调整部件参数。	Enable the part property panel for inspecting and adjusting part parameters.
+LevelSceneSettings_EnableEnhancedPropertyPanel	使用提供更多属性信息的进阶部件界面。	Use the enhanced part property interface with additional information.
+LevelSceneSettings_EnableCustomBackgroundColor	以自定义颜色替换关卡的默认背景颜色。	Use a custom level background color instead of the default.
+LevelSceneSettings_CustomBackgroundColor	输入背景颜色值；需先启用自定义背景颜色。	Enter a background color value. Enable custom background color first.
+ButtonSettings_Enabled	启用新版部件按钮系统及其布局设置。	Enable the replacement part button system and its layout settings.
+ButtonSettings_ButtonScale	统一缩放部件操作按钮。	Scale the part control buttons.
+ButtonSettings_ScrollViewHeightScale	调整部件按钮滚动区域的高度比例。	Adjust the height scale of the part button scroll area.
+ButtonSettings_LayoutMode	使用左右箭头在两种部件按钮布局方案之间切换。	Use the arrows to choose between the two part button layouts.
+ButtonSettings_HighPartTypePriority	排列按钮时优先考虑部件类型。	Give part type higher priority when ordering buttons.
+ButtonSettings_MaxSeparationCount	限制按钮系统处理的分离载具数量。	Limit the number of separated vehicles handled by the button system.
+ButtonSettings_DisplayButtonIndex	在按钮上显示对应部件的索引标记。	Show the associated part index on each button.
+ContraptionDataSettings_Enabled	启用新版载具存档界面。	Enable the replacement vehicle save interface.
+ContraptionDataSettings_SlotCount	设置可用的载具存档槽数量。	Set the number of vehicle save slots.
+ContraptionDataSettings_LoadFormat	选择读取载具存档时使用的格式；ALL 允许读取两种格式。	Choose the vehicle save format to read. ALL allows both formats.
+ContraptionDataSettings_SaveFormat	选择写入载具存档时使用的序列化格式。	Choose the serialization format used to write vehicle saves.
+ContraptionDataSettings_BackupData	保存时为新版载具数据创建备份。	Create backups of replacement vehicle save data when saving.
+ContraptionDataSettings_BackupOriginalData	为原版载具存档数据保留备份。	Keep backups of original-format vehicle save data.
+ContraptionDataSettings_SaveAsOriginalData	同时按原版存档格式保存载具数据。	Also save vehicle data in the original game format.
+ContraptionDataSettings_SlotSpacing	调整相邻存档按钮之间的间距。	Adjust the spacing between save slot buttons.
+ContraptionDataSettings_SlotScale	缩放载具存档按钮。	Scale vehicle save slot buttons.
+ContraptionDataSettings_SlotPerRow	设置每行显示的存档槽数量，超过后换行。	Set how many save slots appear before wrapping to the next row.
+ContraptionDataSettings_SlotRowHeight	调整存档按钮各行之间的高度间隔。	Adjust the vertical spacing between rows of save slots.
+PartSettings_NoDrag	移除部件的阻力，使其运动更难自然衰减。	Remove part drag so motion decays less naturally.
+PartSettings_DisableAlienPartParticles	关闭外星部件的粒子视觉效果。	Disable particle effects on alien parts.
+PartSettings_EnableWaterSystem	启用水域和部件浮力模拟。	Enable water and part buoyancy simulation.
+PartSettings_WaterLevel	设置水面的世界坐标高度。	Set the water surface height in world coordinates.
+PartSettings_BuoyancyCoefficient	调整排水产生的浮力强度。	Scale the buoyancy force produced by displaced water.
+PartSettings_RenderDisplacedArea	显示部件排水区域，便于观察浮力计算。	Display the displaced-water area to inspect buoyancy behavior.
+PartSettings_ColoredFrameSaturation1	调整染色框第一种配色的饱和度。	Adjust saturation for the first colored-frame palette.
+PartSettings_ColoredFrameSaturation2	调整染色框第二种配色的饱和度。	Adjust saturation for the second colored-frame palette.
+PartSettings_ColoredFrameBrightness1	调整染色框第一种配色的明度。	Adjust brightness for the first colored-frame palette.
+PartSettings_ColoredFrameBrightness2	调整染色框第二种配色的明度。	Adjust brightness for the second colored-frame palette.
+PartSettings_ColoredFrameBrightness3	调整染色框第三种配色的明度。	Adjust brightness for the third colored-frame palette.
+PartSettings_JetEngineDefaultForce	设置喷气引擎推力的默认值。	Set the default thrust of jet engines.
+PartSettings_JetEngineForceStep	设置每次调整喷气引擎推力时的增减量。	Set the increment used when adjusting jet engine thrust.
+StarSeaSettings_ShowFPS	在游玩时显示实时渲染帧率。	Display the rendering frame rate while playing.
+StarSeaSettings_TargetFrameRate	限制每秒渲染帧数，平衡流畅度与性能开销。	Limit rendered frames per second to balance smoothness and performance cost.
+StarSeaSettings_FixedFrameRate	设置每秒物理计算次数；较高值通常需要更多计算资源。	Set physics updates per second. Higher rates generally require more processing.
+StarSeaSettings_CircuitFrameRate	设置电路系统每秒求解次数。	Set the number of circuit solver updates per second.
+StarSeaSettings_FrameFrameRate	设置实验性框架系统的计算频率。	Set the update frequency of the experimental frame system.
+StarSeaSettings_PhysicsEngine	选择物理后端。不可用的引擎会显示原因，并保留当前选择。	Choose a physics backend. Unavailable engines show a reason and leave the current selection unchanged.
+StarSeaSettings_PhysicsSolverIterations	设置每次物理求解的迭代次数；增加次数可能提高连接稳定性，也会增加计算开销。	Set solver iterations per physics step. More iterations may improve constraint stability at additional cost.
+StarSeaSettings_CustomPhysicsFrame	切换自适应物理帧算法：关闭使用旧版，开启使用新版。	Choose the adaptive physics algorithm: off uses the old version, on uses the new version.
+StarSeaSettings_AdaptivePhysicsFrame	帧率低于此阈值时启用自适应优化；0 表示关闭。	Trigger adaptive optimization below this frame rate. 0 disables it.
+StarSeaSettings_AdaptivePhysicsFrameMin	限制自适应物理帧率的最低值；0 表示不限，过低可能损失精度。	Set the minimum adaptive physics rate. 0 means no limit; low values can reduce precision.
+StarSeaSettings_UseMultithreadFrameSolver	启用实验性多线程框架配对计算。	Enable experimental multithreaded frame pairing.
+StarSeaSettings_EnableMultithreadCircuit	启用实验性多线程电路求解。	Enable experimental multithreaded circuit solving.
+StarSeaSettings_PartDrag	调整部件平移运动的阻力。	Adjust resistance to part translation.
+StarSeaSettings_PartAngularDrag	调整部件旋转运动的阻力。	Adjust resistance to part rotation.
+StarSeaSettings_GunProjectileDrag	调整机炮弹丸飞行时的阻力。	Adjust drag on gun projectiles in flight.
+StarSeaSettings_AntiTunnelSpeedThreshold	相对速度超过此值时触发防过穿检查。	Trigger anti-tunneling checks when relative speed exceeds this threshold.
+StarSeaSettings_AntiTunnelPullBackDistance	设置防过穿校正使用的拉回距离阈值。	Set the pullback distance threshold used for anti-tunneling corrections.
+StarSeaSettings_StableMultiblock	启用多功能块的稳定处理逻辑。	Enable stability handling for multifunction blocks.
+StarSeaSettings_AnchorUmbrellaCoefficient	缩放锚定伞产生的作用力。	Scale the force generated by anchor umbrellas.
+StarSeaSettings_LightAntiTunnel	启用光组件的防过穿处理。	Enable anti-tunneling handling for light components.
+StarSeaSettings_DDNewConnectionLogic	切换多功能块到新版连接逻辑。	Use the new connection logic for multifunction blocks.
+StarSeaSettings_ToolBookEnabled	控制是否隐藏辅助菜单。	Control whether the auxiliary menu is hidden.
+StarSeaSettings_ToolBookPosX	调整辅助菜单按钮的水平位置。	Adjust the auxiliary menu button's horizontal position.
+StarSeaSettings_ToolBookPosY	调整辅助菜单按钮的垂直位置。	Adjust the auxiliary menu button's vertical position.
+StarSeaSettings_ToolBookSize	调整辅助菜单按钮的显示大小。	Adjust the displayed size of the auxiliary menu button.
+StarSeaSettings_ToolBookPasteOverwriteMode	粘贴部件时使用覆盖模式。	Use overwrite mode when pasting parts.
+StarSeaSettings_ToolBookClipboardMax	设置辅助菜单保留的剪贴板槽数量。	Set the number of clipboard slots retained by the auxiliary menu.
+StarSeaSettings_GateWidthCoefficient	调整机械门长度的缩放系数。	Adjust the gate length scale coefficient.
+StarSeaSettings_GateLengthCoefficients	按顺序输入五种机械门的宽度系数，以逗号分隔。	Enter width coefficients for the five gate types, separated by commas.
+StarSeaSettings_GateOpacity	调整机械门不透明度，范围为 0 至 1。	Set gate opacity from 0 to 1.
+StarSeaSettings_GateDefaultLengths	输入四种固定机械门的默认长度，以逗号分隔。	Enter default lengths for the four fixed gate types, separated by commas.
+StarSeaSettings_GateAdjustableRange	按 min,max,step 格式设置可调机械门的范围和步长。	Set adjustable gate limits and increment using min,max,step.
+StarSeaSettings_GateExtensionSpeed	调整机械门伸出时的运动速度。	Adjust the speed at which gates extend.
+StarSeaSettings_SpecialPointChargeInvincible	使特殊点电荷免受破坏。	Make special point charges invulnerable.
+StarSeaSettings_SpecialChargeDefaultEnabled	设置特殊电荷在开始运行时是否默认开启。	Set whether special charges start enabled.
+StarSeaSettings_SpecialChargeForce	调整特殊电荷的吸引力强度。	Adjust the attraction strength of special charges.
+StarSeaSettings_SpecialChargeMaxForce	限制特殊电荷的最大作用力。	Limit the maximum force of special charges.
+StarSeaSettings_SpecialChargeForceRadius	设置特殊电荷吸引力生效的半径。	Set the effective attraction radius of special charges.
+StarSeaSettings_SpecialChargeJointBreakForce	设置电荷关节断裂所需的力；-1 表示不可破坏。	Set the force required to break charge joints. -1 makes them unbreakable.
+StarSeaSettings_SpecialChargeJointDistance	设置允许建立电荷关节连接的距离。	Set the distance allowed for creating charge joint connections.
+StarSeaSettings_ChargeJointSnapEnabled	启用电荷关节吸合优化。	Enable charge joint snapping optimization.
+StarSeaSettings_ChargeJointSize	调整电荷关节的尺寸参数。	Adjust the charge joint size parameter.
+StarSeaSettings_SpecialChargeReinforceRange	设置电荷加固连接的搜索范围。	Set the search range for reinforced charge connections.
+StarSeaSettings_SpecialChargeReinforceMaxCount	限制电荷最多创建的加固连接数量。	Limit the number of reinforced connections a charge can create.
+StarSeaSettings_SpecialChargeReinforceBreakForce	设置加固连接的断裂力；-1 表示不可破坏。	Set the breaking force of reinforced connections. -1 makes them unbreakable.
+StarSeaSettings_SpecialChargeCollisionIgnore	忽略已连接载具之间的碰撞。	Ignore collisions between connected vehicles.
+StarSeaSettings_SpecialChargeAttractionCollisionIgnore	在电荷吸合时移除相关载具之间的碰撞。	Remove collisions between the affected vehicles during charge attraction.
+StarSeaSettings_SpecialChargeForceConnect	使特殊电荷接触时强制建立连接。	Force a connection when special charges touch.
+StarSeaSettings_ShowJointConnectionCount	显示当前关节连接数量。	Display the current joint connection count.
+StarSeaSettings_GateDirectionButtons	显示机械门的方向控制按钮。	Show direction controls for mechanical gates.
+StarSeaSettings_SwitchDirectionButtons	显示开关的方向控制按钮。	Show direction controls for switches.
+StarSeaSettings_SpdtDirectionButtons	显示单刀双掷开关的方向控制按钮。	Show direction controls for SPDT switches.
+StarSeaSettings_FieldGeneratorDirectionButtons	显示电平发生器的方向控制按钮。	Show direction controls for field generators.
+DataPanel_Time	显示设备的当前本地日期与时间，只读。	Display the device's current local date and time. Read-only.
+DataPanel_RunningTime	显示本次游戏进程启动后的运行秒数，只读。	Display seconds elapsed since this game process started. Read-only.
+DataPanel_FPS	显示采样得到的渲染帧率；打开面板时保留采样值。	Display the sampled rendering frame rate, held while the panel is open.
+DataPanel_FixedFPS	显示采样得到的物理更新频率；打开面板时保留采样值。	Display the sampled physics update rate, held while the panel is open.
+DataPanel_AllocatedManagedHeapSize	显示托管堆正在使用的内存，单位 MB。	Display memory in use on the managed heap, in MB.
+DataPanel_ReservedManagedHeapSize	显示为托管堆预留的内存，单位 MB。	Display memory reserved for the managed heap, in MB.
+DataPanel_TotalAllocatedMemorySize	显示 Unity 已分配的总内存，单位 MB。	Display total memory allocated by Unity, in MB.
+DataPanel_TotalReservedMemorySize	显示 Unity 预留的总内存，单位 MB。	Display total memory reserved by Unity, in MB.
+DataPanel_DeviceModel	显示系统报告的设备型号，只读。	Display the device model reported by the system. Read-only.
+DataPanel_DeviceName	显示系统报告的设备名称，只读。	Display the device name reported by the system. Read-only.
+DataPanel_DeviceType	显示设备类别，只读。	Display the device category. Read-only.
+DataPanel_OperatingSystem	显示操作系统名称与版本，只读。	Display the operating system name and version. Read-only.
+DataPanel_ProcessorType	显示处理器型号，只读。	Display the processor model. Read-only.
+DataPanel_ProcessorFrequency	显示系统报告的处理器频率，单位 MHz。	Display the processor frequency reported by the system, in MHz.
+DataPanel_ProcessorCount	显示系统可用的逻辑处理器数量。	Display the number of logical processors available to the system.
+DataPanel_GraphicsDeviceName	显示当前图形设备名称。	Display the current graphics device name.
+DataPanel_GraphicsDeviceType	显示当前使用的图形 API 类型。	Display the graphics API currently in use.
+DataPanel_GraphicsMemorySize	显示系统报告的显存大小，单位 MB。	Display graphics memory reported by the system, in MB.
+DataPanel_SystemMemorySize	显示系统报告的物理内存大小，单位 MB。	Display physical system memory, in MB.
+DataPanel_BatteryLevel	显示系统报告的电池剩余电量；设备不支持时可能无法获取。	Display the battery level reported by the system; it may be unavailable on unsupported devices.
+DataPanel_BatteryStatus	显示充电或放电等电池状态。	Display battery status, such as charging or discharging.
+EnableBackground	启用自定义图片或视频背景。	Enable a custom image or video background.
+BackgroundPath	输入本地图片或视频文件的路径，提交后加载背景。	Enter a local image or video file path and submit to load the background.
+BackgroundVolume	调整背景视频的音量，范围 0 至 1。	Adjust background video volume from 0 to 1.
+BackgroundOpacity	调整背景的不透明度，范围 0 至 1。	Adjust background opacity from 0 to 1.
+CustomScale	启用手动设置的背景水平与垂直缩放。	Enable manual horizontal and vertical background scaling.
+CameraAdaptive	让背景尺寸适应摄像机视野。	Adapt the background size to the camera view.
+ScaleX	调整背景的水平缩放比例。	Adjust the horizontal background scale.
+ScaleY	调整背景的垂直缩放比例。	Adjust the vertical background scale.
+OffsetX	调整背景相对位置的水平偏移。	Adjust the horizontal offset of the background.
+OffsetY	调整背景相对位置的垂直偏移。	Adjust the vertical offset of the background.
+UseAbsolute	使用绝对坐标放置背景。	Position the background using absolute coordinates.
+AbsX	设置背景的绝对 X 坐标。	Set the background's absolute X coordinate.
+AbsY	设置背景的绝对 Y 坐标。	Set the background's absolute Y coordinate.
+Rotation	调整背景的旋转角度。	Adjust the background rotation angle.
+BackgroundZ	设置背景的 Z 轴深度，影响前后遮挡关系。	Set background depth on the Z axis, affecting overlap with other content.
+Loop	视频播放结束后从头循环播放。	Restart the video when it reaches the end.
+PlaybackSpeed	调整视频播放倍速；1 为正常速度。	Adjust video playback speed. 1 is normal speed.
+SeekTime	跳转到指定视频时间，支持秒数、百分比或时分秒格式。	Seek to a video time using seconds, a percentage or a timecode.
+Progress	显示当前播放进度，拖动滑条并松开可跳转到对应位置。	Display playback progress. Drag and release the slider to seek.
+PlayPause	切换背景视频的播放与暂停状态。	Play or pause the background video.
+BuildVolume	调整建造界面的音量，范围 0 至 1。	Adjust construction screen volume from 0 to 1.
+RunVolume	调整运行阶段的音量，范围 0 至 1。	Adjust simulation volume from 0 to 1.
+SoundVolume	调整游戏音效音量，范围 0 至 1。	Adjust game sound effect volume from 0 to 1.
+UseLevelSelectionMusic	控制是否使用关卡选择音乐。	Control whether level selection music is used.
+EntryMusicVolume	调整进入游戏时的音乐音量，范围 0 至 1。	Adjust game entry music volume from 0 to 1.
+CustomTerrainEnabled	启用自定义地形。	Enable custom terrain.
+TerrainWidth	设置生成地形的绘图宽度，默认值为 100。	Set the drawing width for generated terrain. The default is 100.
+TerrainColliderDepth	设置地形碰撞体的 Z 轴深度，默认值为 10。	Set terrain collider depth on the Z axis. The default is 10.
+CustomTerrainPath	输入用于导入或保存自定义地形的文件路径。	Enter the file path used to import or save custom terrain.
+FuncExpr	输入绘图表达式，例如 sin(x) 或 x^2+y^2=25；可附带范围条件。	Enter a plotting expression, such as sin(x) or x^2+y^2=25, optionally with a range condition.
+FuncOriginX	移动函数绘图原点的 X 坐标。	Move the function plot origin along the X axis.
+FuncOriginY	移动函数绘图原点的 Y 坐标。	Move the function plot origin along the Y axis.
+FuncMultiplier	缩放函数绘图的整体尺寸。	Scale the overall size of the function plot.
+FuncLineWidth	设置函数绘图线条的宽度。	Set the line width of the function plot.
+FuncShowAxes	显示函数绘图的坐标轴。	Show coordinate axes on the function plot.
+UseDegrees	使用角度制解释三角函数参数。	Interpret trigonometric arguments in degrees.
+FuncSampleCount	设置函数曲线的采样数量；0 使用自动采样。	Set the number of curve samples. 0 selects automatic sampling.
+FuncRangeExpr	输入 X 轴范围条件，例如 10>x>=2。	Enter an X range condition, such as 10>x>=2.
+FuncColorR	设置绘图颜色的红色分量，范围 0 至 1。	Set the red plot color component from 0 to 1.
+FuncColorG	设置绘图颜色的绿色分量，范围 0 至 1。	Set the green plot color component from 0 to 1.
+FuncColorB	设置绘图颜色的蓝色分量，范围 0 至 1。	Set the blue plot color component from 0 to 1.
+StarSeaSettings_GpuPhysicsCompute	通过兼容设备的 Compute Shader 批量计算万有引力与普通点电荷的力。小规模、设备不支持或 GPU 总耗时较高时自动使用 CPU；碰撞与关节仍由所选物理后端处理。物理统计可查看实际计算路径。	Batch gravity and ordinary point-charge forces with Compute Shaders. Small batches, unsupported devices or higher GPU upload/readback costs automatically use the CPU. The selected physics backend handles collisions and joints. Physics Stats shows the active calculation path.
+UserSettings_Save	将当前设置写入本地存档，以便下次启动继续使用。	Write the current settings to local storage for the next session.
+UserSettings_Reset	恢复本页设置的默认值；保存后将保留重置结果。	Restore this page's default settings. Save to keep the reset values.

@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 2052674943
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 773ed979e7ef4cab3b47ebca98a65c6f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 192bf7f52ae04ed85b96a66e12055c47
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 773ed979e7ef4cab3b47ebca98a65c6f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_36_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/track_03_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_49_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_51_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/track_06_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_56_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_30_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_22_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_54_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/Level_43_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/Level_51_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/test15_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_52_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/test53_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_11_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/test20_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/test52_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_53_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_14_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_39_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/track_05_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_35_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/test54_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_12_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_16_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_28_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/Comic_Episode_3_Outro_01.png
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_40_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_33_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_27_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_42_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/AmbientNight.prefab
+- Assets/assetbundles/episode_4_levels.unity3d/Level_53_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_03_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_50_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/ambient_night.ogg
+- Assets/assetbundles/episode_4_levels.unity3d/Level_54_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_15_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_32_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/track_07_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_20_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_18_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_38_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/Level_52_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/test59_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/Comic_Episode_3_Intro_01.png
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_29_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_41_data.bytes
+- Assets/assetbundles/episode_4_levels.unity3d/scenario_25_data.bytes
+Dependencies: []

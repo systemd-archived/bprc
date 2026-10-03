@@ -1,0 +1,71 @@
+# ── Unity generated ──
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# ── IDE ──
+/.idea/
+/.vs/
+/.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── Gradle (Android build) ──
+ExportedObj/
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ── Crash reports ──
+sysinfo.txt
+crashlytics-build.properties
+
+# ── Recordings / Profiling ──
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# -- Nested Unity projects: regenerable caches -------------------------------
+# The rules above are anchored to this project's root (e.g. "/[Ll]ibrary/"),
+# so a nested Unity project keeps its own cache in the backup. The same names
+# inside any sub-project are just as regenerable as they are here.
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# -- Vendored upstream clones: contents intentionally not duplicated ---------
+# Each path below is a pristine clone of a public GitHub repo (some are also
+# partial clones). Their file contents are deliberately left out of this repo
+# to avoid duplicating ~1.5 GB of upstream data. Every one is reproducible:
+# the exact origin URL, branch and commit are recorded in VENDORED-UPSTREAMS.md
+# (git clone <url> && git checkout <sha>).
+/Tools/BPRebooted/upstream/bp-rebooted/
+/Tools/BPRebooted/upstream/bp-rebooted-delta/
+/Tools/BPRebooted/upstream/BPLE-2022.1/
+/Tools/BPRebooted/upstream/BPLE-2022.1.9/
+/Tools/Jolt/JoltPhysicsC/
+/Tools/StarSea/upstream/
+/_codex_work/DivisionUI/
+/_codex_work/idc/UnityIngameDebugConsole/

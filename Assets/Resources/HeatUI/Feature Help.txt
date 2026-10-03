@@ -1,0 +1,208 @@
+ApplicationInterface	切换“应用界面”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Application Interface. Enable its extended behavior or turn this feature off.
+CommandSystem	切换“指令系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Command System. Enable its extended behavior or turn this feature off.
+InputSettings	切换“输入设置”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Input Settings. Enable its extended behavior or turn this feature off.
+UIPartButtonSystem	切换“部件按键UI系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle UIPart Button System. Enable its extended behavior or turn this feature off.
+RuntimeGameData	切换“运行时游戏数据”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Runtime Game Data. Enable its extended behavior or turn this feature off.
+NewContraptionData	切换“新版载具存档”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle New Contraption Data. Enable its extended behavior or turn this feature off.
+InfiniteTools	切换“无限道具”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Infinite Tools. Enable its extended behavior or turn this feature off.
+InfiniteSnoutCoins	切换“无限金币”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Infinite Snout Coins. Enable its extended behavior or turn this feature off.
+UnlockLevels	切换“解锁关卡”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Unlock Levels. Enable its extended behavior or turn this feature off.
+UnlockSandBoxes	切换“解锁沙盒”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Unlock Sand Boxes. Enable its extended behavior or turn this feature off.
+UnlockCustomParts	切换“解锁材质”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Unlock Custom Parts. Enable its extended behavior or turn this feature off.
+AutoGetCollections	切换“自动获取收集物”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Get Collections. Enable its extended behavior or turn this feature off.
+PropertyPanel	切换“属性界面”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Property Panel. Enable its extended behavior or turn this feature off.
+EnhancedPropertyPanel	切换“进阶式属性界面”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Enhanced Property Panel. Enable its extended behavior or turn this feature off.
+PropertyPanelColor	编辑“属性界面颜色”使用的文本参数，提交输入后应用。	Edit the text parameter used by Property Panel Color. Submit the field to apply it.
+PropertyPanelFontSize	调整“属性界面字体大小”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Property Panel Font Size. Submit to apply; reset restores the current game version's default.
+PropertyPanelOutlineWidth	调整“属性界面轮廓宽度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Property Panel Outline Width. Submit to apply; reset restores the current game version's default.
+PropertyPanelOutlineColor	编辑“属性界面轮廓颜色”使用的文本参数，提交输入后应用。	Edit the text parameter used by Property Panel Outline Color. Submit the field to apply it.
+GridSize	调整“建造格大小”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Grid Size. Submit to apply; reset restores the current game version's default.
+InfiniteGrid	切换“无限建造格”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Infinite Grid. Enable its extended behavior or turn this feature off.
+RenderInfiniteGrid	切换“渲染无限建造格”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Render Infinite Grid. Enable its extended behavior or turn this feature off.
+PartCounter	切换“部件计数器”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Part Counter. Enable its extended behavior or turn this feature off.
+NewCamera	切换“新视野机制”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle New Camera. Enable its extended behavior or turn this feature off.
+CameraInitialZoom	调整“视野初始缩放比例”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Camera Initial Zoom. Submit to apply; reset restores the current game version's default.
+CameraMaxZoom	调整“视野最大缩放比例”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Camera Max Zoom. Submit to apply; reset restores the current game version's default.
+CameraPanSpeed	调整“视野拖移速度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Camera Pan Speed. Submit to apply; reset restores the current game version's default.
+CameraZoomSpeed	调整“视野缩放速度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Camera Zoom Speed. Submit to apply; reset restores the current game version's default.
+PartPlacementOperation	切换“部件连放操作”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Part Placement Operation. Enable its extended behavior or turn this feature off.
+PartDeletionOperation	切换“部件连删操作”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Part Deletion Operation. Enable its extended behavior or turn this feature off.
+PartDeselectionOperation	切换“部件取消选择操作”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Part Deselection Operation. Enable its extended behavior or turn this feature off.
+AutoSetPartBuildingIndex	切换“自动设置部件材质”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Set Part Building Index. Enable its extended behavior or turn this feature off.
+AutoSetPartBuildingRotation	切换“自动设置部件朝向”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Set Part Building Rotation. Enable its extended behavior or turn this feature off.
+SetBuildingButtonPosition	切换“设置建造界面按键位置”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Set Building Button Position. Enable its extended behavior or turn this feature off.
+PartSelectorScale	调整“部件选择器大小”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Part Selector Scale. Submit to apply; reset restores the current game version's default.
+CancelPartValidation	切换“取消部件验证”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Cancel Part Validation. Enable its extended behavior or turn this feature off.
+CancelPreview	切换“取消地图预览”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Cancel Preview. Enable its extended behavior or turn this feature off.
+CancelPigBoundsDetection	切换“取消雀斑猪边界检测”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Cancel Pig Bounds Detection. Enable its extended behavior or turn this feature off.
+EnableDesserts	切换“开启甜点系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Enable Desserts. Enable its extended behavior or turn this feature off.
+EnableKingFeedButton	切换“开启猪王喂食界面”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Enable King Feed Button. Enable its extended behavior or turn this feature off.
+EnableWorkShopButton	切换“开启作坊界面”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Enable Work Shop Button. Enable its extended behavior or turn this feature off.
+StableRope	切换“稳定化绳子”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Stable Rope. Enable its extended behavior or turn this feature off.
+StableHook	切换“稳定化抓钩”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Stable Hook. Enable its extended behavior or turn this feature off.
+SaveButton	切换“保存按键”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Save Button. Enable its extended behavior or turn this feature off.
+AutoSaveWhenClearingGrid	切换“清除建造格时自动保存”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Save When Clearing Grid. Enable its extended behavior or turn this feature off.
+HideDarkMask	切换“隐藏黑暗遮罩”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Hide Dark Mask. Enable its extended behavior or turn this feature off.
+RotatableCamera	切换“可旋转视野”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Camera. Enable its extended behavior or turn this feature off.
+CameraTargetPartType	调整“视野跟踪部件类型”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Camera Target Part Type. Submit to apply; reset restores the current game version's default.
+DisableCameraAnimation	切换“关闭视野动画”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Disable Camera Animation. Enable its extended behavior or turn this feature off.
+DisableAlienPartParticles	切换“关闭核能粒子效果”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Disable Alien Part Particles. Enable its extended behavior or turn this feature off.
+TerrainScale	调整“地形大小”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Terrain Scale. Submit to apply; reset restores the current game version's default.
+EnclosableParts	切换“部件可装框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Enclosable Parts. Enable its extended behavior or turn this feature off.
+EnginePowerLimit	调整“动力上限”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Engine Power Limit. Submit to apply; reset restores the current game version's default.
+DynamicPowerSystem	切换“动态动力系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Dynamic Power System. Enable its extended behavior or turn this feature off.
+AllDirectionsConnection	切换“全向连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle All Directions Connection. Enable its extended behavior or turn this feature off.
+ConnectionStrength	调整“连接强度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Connection Strength. Submit to apply; reset restores the current game version's default.
+NoDrag	切换“无阻力”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle No Drag. Enable its extended behavior or turn this feature off.
+WaterSystem	切换“水域系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Water System. Enable its extended behavior or turn this feature off.
+BuoyancyCoefficient	调整“浮力系数”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Buoyancy Coefficient. Submit to apply; reset restores the current game version's default.
+HydraulicCoefficient	调整“水压系数”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Hydraulic Coefficient. Submit to apply; reset restores the current game version's default.
+WatertightCoefficient	调整“水密系数”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Watertight Coefficient. Submit to apply; reset restores the current game version's default.
+WaterMaxFluctuationSpeed	调整“水域最大涨落速度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Water Max Fluctuation Speed. Submit to apply; reset restores the current game version's default.
+SeparatedFrame	切换“分离框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Separated Frame. Enable its extended behavior or turn this feature off.
+ColoredFrame	切换“染色框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Colored Frame. Enable its extended behavior or turn this feature off.
+NonCollisionColoredFrame	切换“非碰撞染色框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Non Collision Colored Frame. Enable its extended behavior or turn this feature off.
+CanColorEnclosedPart	切换“染色框内部件”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Can Color Enclosed Part. Enable its extended behavior or turn this feature off.
+EnclosedPartColorBlend	调整“框内部件染色混合度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Enclosed Part Color Blend. Submit to apply; reset restores the current game version's default.
+CanColorSpecialFrames	切换“染色特殊框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Can Color Special Frames. Enable its extended behavior or turn this feature off.
+CanColorAllFrames	切换“染色所有框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Can Color All Frames. Enable its extended behavior or turn this feature off.
+CanColorTransparentFrame	切换“染色透明框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Can Color Transparent Frame. Enable its extended behavior or turn this feature off.
+ColoredFrameAlpha	调整“染色框透明度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Colored Frame Alpha. Submit to apply; reset restores the current game version's default.
+ColoredFrameForegroundAlpha	调整“染色框前景透明度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Colored Frame Foreground Alpha. Submit to apply; reset restores the current game version's default.
+ColoredFrameBackgroundAlpha	调整“染色框背景透明度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Colored Frame Background Alpha. Submit to apply; reset restores the current game version's default.
+TransparentFrameAlpha	调整“透明框不透明度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Transparent Frame Alpha. Submit to apply; reset restores the current game version's default.
+TransparentFrameColorDecayRate	调整“透明框颜色衰减率”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Transparent Frame Color Decay Rate. Submit to apply; reset restores the current game version's default.
+TransparentFrameAlphaDecayRate	调整“透明框不透明度衰减率”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Transparent Frame Alpha Decay Rate. Submit to apply; reset restores the current game version's default.
+WoodenBox	切换“木盒”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Wooden Box. Enable its extended behavior or turn this feature off.
+WoodenBoxMass	调整“木盒质量”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Wooden Box Mass. Submit to apply; reset restores the current game version's default.
+MetalBox	切换“铁盒”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Metal Box. Enable its extended behavior or turn this feature off.
+MetalBoxMass	调整“铁盒质量”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Metal Box Mass. Submit to apply; reset restores the current game version's default.
+BracketFrame	切换“支架框”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Bracket Frame. Enable its extended behavior or turn this feature off.
+FrameJoint	切换“框架连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Frame Joint. Enable its extended behavior or turn this feature off.
+NewTimeBombConnection	切换“新定时炸弹连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle New Time Bomb Connection. Enable its extended behavior or turn this feature off.
+SpecialEggs	切换“特殊鸟蛋”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Special Eggs. Enable its extended behavior or turn this feature off.
+GravityEggMass	调整“引力鸟蛋质量”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gravity Egg Mass. Submit to apply; reset restores the current game version's default.
+GravityEggForce	调整“引力鸟蛋引力大小”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gravity Egg Force. Submit to apply; reset restores the current game version's default.
+GravityEggInnerRadius	调整“引力鸟蛋内半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gravity Egg Inner Radius. Submit to apply; reset restores the current game version's default.
+GravityEggOuterRadius	调整“引力鸟蛋外半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gravity Egg Outer Radius. Submit to apply; reset restores the current game version's default.
+NewAlienEgg	切换“新型核鸟蛋”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle New Alien Egg. Enable its extended behavior or turn this feature off.
+OffRoadWheel	切换“越野轮”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Off Road Wheel. Enable its extended behavior or turn this feature off.
+OffRoadWheelScale	调整“越野轮大小”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Off Road Wheel Scale. Submit to apply; reset restores the current game version's default.
+NonCollisionOffRoadWheel	切换“非碰撞越野轮”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Non Collision Off Road Wheel. Enable its extended behavior or turn this feature off.
+ReactionFan	切换“反作用风扇”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Reaction Fan. Enable its extended behavior or turn this feature off.
+StableLevitationFan	切换“稳态悬浮风扇”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Stable Levitation Fan. Enable its extended behavior or turn this feature off.
+FanForce	调整“风扇驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Fan Force. Submit to apply; reset restores the current game version's default.
+FanSpeed	调整“风扇驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Fan Speed. Submit to apply; reset restores the current game version's default.
+PropellerForce	调整“小桨驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Propeller Force. Submit to apply; reset restores the current game version's default.
+PropellerSpeed	调整“小桨驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Propeller Speed. Submit to apply; reset restores the current game version's default.
+RotorForce	调整“大桨驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rotor Force. Submit to apply; reset restores the current game version's default.
+RotorSpeed	调整“大桨驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rotor Speed. Submit to apply; reset restores the current game version's default.
+SwitchableCokeSodaRocket	切换“可开关可乐汽水火箭”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Switchable Coke Soda Rocket. Enable its extended behavior or turn this feature off.
+CokeSodaForce	调整“可乐汽水驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Coke Soda Force. Submit to apply; reset restores the current game version's default.
+CokeSodaSpeed	调整“可乐汽水驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Coke Soda Speed. Submit to apply; reset restores the current game version's default.
+RocketForce	调整“火箭驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rocket Force. Submit to apply; reset restores the current game version's default.
+RocketSpeed	调整“火箭驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rocket Speed. Submit to apply; reset restores the current game version's default.
+AlienCokeForceValue	调整“蓝喷气驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien Coke Force Value. Submit to apply; reset restores the current game version's default.
+AlienCokeSpeedValue	调整“蓝喷气驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien Coke Speed Value. Submit to apply; reset restores the current game version's default.
+AlienSodaForceValue	调整“绿喷气驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien Soda Force Value. Submit to apply; reset restores the current game version's default.
+AlienSodaSpeedValue	调整“绿喷气驱动限速”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien Soda Speed Value. Submit to apply; reset restores the current game version's default.
+RocketExplosionForce	调整“火箭爆炸力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rocket Explosion Force. Submit to apply; reset restores the current game version's default.
+RocketExplosionRadius	调整“火箭爆炸半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rocket Explosion Radius. Submit to apply; reset restores the current game version's default.
+RocketExplosionCoolingTime	调整“火箭爆炸冷却时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Rocket Explosion Cooling Time. Submit to apply; reset restores the current game version's default.
+AvoidanceRocket	切换“避障火箭”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Avoidance Rocket. Enable its extended behavior or turn this feature off.
+AvoidanceRocketAngle	调整“避障火箭检测角度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Avoidance Rocket Angle. Submit to apply; reset restores the current game version's default.
+AvoidanceRocketMaxDistance	调整“避障火箭检测距离”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Avoidance Rocket Max Distance. Submit to apply; reset restores the current game version's default.
+TrackingRocket	切换“跟踪火箭”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Tracking Rocket. Enable its extended behavior or turn this feature off.
+TrackingRocketAngle	调整“跟踪火箭检测角度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Tracking Rocket Angle. Submit to apply; reset restores the current game version's default.
+TrackingRocketMaxForce	调整“跟踪火箭最大驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Tracking Rocket Max Force. Submit to apply; reset restores the current game version's default.
+TrackingRocketMaxDistance	调整“跟踪火箭检测距离”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Tracking Rocket Max Distance. Submit to apply; reset restores the current game version's default.
+SpecialUmbrellas	切换“特殊伞”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Special Umbrellas. Enable its extended behavior or turn this feature off.
+StrongSpringConnection	切换“强弹簧连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Strong Spring Connection. Enable its extended behavior or turn this feature off.
+StableSpringConnection	切换“稳定弹簧连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Stable Spring Connection. Enable its extended behavior or turn this feature off.
+RotatableTNT	切换“可旋转TNT”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable TNT. Enable its extended behavior or turn this feature off.
+TNTExplosionForce	调整“TNT爆炸力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for TNTExplosion Force. Submit to apply; reset restores the current game version's default.
+TNTExplosionRadius	调整“TNT爆炸半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for TNTExplosion Radius. Submit to apply; reset restores the current game version's default.
+AlienTNTExplosionForce	调整“核TNT爆炸力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien TNTExplosion Force. Submit to apply; reset restores the current game version's default.
+AlienTNTExplosionRadius	调整“核TNT爆炸半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien TNTExplosion Radius. Submit to apply; reset restores the current game version's default.
+AlienTNTExplosionCoolingTime	调整“核TNT爆炸冷却时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien TNTExplosion Cooling Time. Submit to apply; reset restores the current game version's default.
+AlienTNTTriggerGun	切换“核TNT触发机炮”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Alien TNTTrigger Gun. Enable its extended behavior or turn this feature off.
+BlasterTNT	切换“冲击波TNT”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Blaster TNT. Enable its extended behavior or turn this feature off.
+UnbreakableRope	切换“不断绳”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Unbreakable Rope. Enable its extended behavior or turn this feature off.
+CollidableRope	切换“可碰撞绳”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Collidable Rope. Enable its extended behavior or turn this feature off.
+RopeSegmentCount	调整“绳段数”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Rope Segment Count. Submit to apply; reset restores the current game version's default.
+HingePlate	切换“铰链板”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Hinge Plate. Enable its extended behavior or turn this feature off.
+StableHingePlate	切换“稳定化铰链板”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Stable Hinge Plate. Enable its extended behavior or turn this feature off.
+CanHingePlateConnectComponents	切换“铰链板可连通载具”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Can Hinge Plate Connect Components. Enable its extended behavior or turn this feature off.
+BalloonForce	调整“气球力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Balloon Force. Submit to apply; reset restores the current game version's default.
+RotatableBalloon	切换“可旋转气球”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Balloon. Enable its extended behavior or turn this feature off.
+UnpoppableBalloon	切换“不破气球”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Unpoppable Balloon. Enable its extended behavior or turn this feature off.
+BalloonConnectionDistance	调整“气球连接距离”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Balloon Connection Distance. Submit to apply; reset restores the current game version's default.
+RotatableSandbag	切换“可旋转沙袋”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Sandbag. Enable its extended behavior or turn this feature off.
+SandbagConnectionDistance	调整“沙袋连接距离”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Sandbag Connection Distance. Submit to apply; reset restores the current game version's default.
+RotatableWing	切换“可旋转机翼”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Wing. Enable its extended behavior or turn this feature off.
+SwitchableWing	切换“可开关机翼”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Switchable Wing. Enable its extended behavior or turn this feature off.
+RotatableTail	切换“可旋转尾翼”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Tail. Enable its extended behavior or turn this feature off.
+SwitchableTail	切换“可开关尾翼”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Switchable Tail. Enable its extended behavior or turn this feature off.
+SwitchableBoxingGlove	切换“可开关拳套”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Switchable Boxing Glove. Enable its extended behavior or turn this feature off.
+BoxingGloveLength	调整“拳套长度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Boxing Glove Length. Submit to apply; reset restores the current game version's default.
+PartGenerator	切换“部件生成器”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Part Generator. Enable its extended behavior or turn this feature off.
+PartGeneratorForce	调整“部件生成器发射力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Part Generator Force. Submit to apply; reset restores the current game version's default.
+PartGeneratorDistances	设置“部件生成器发射距离”的数值列表，使用逗号分隔各项并按原顺序填写。	Set the values for Part Generator Distances. Enter a comma-separated list in the existing order.
+PartGeneratorCoolingTime	调整“部件生成器冷却时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Part Generator Cooling Time. Submit to apply; reset restores the current game version's default.
+PartGeneratorMaxGenerationLevel	调整“部件生成器最大生成层级”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Part Generator Max Generation Level. Submit to apply; reset restores the current game version's default.
+MultipartGenerator	切换“多部件生成器”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Multipart Generator. Enable its extended behavior or turn this feature off.
+MultipartGeneratorDistances	设置“多部件生成器发射距离”的数值列表，使用逗号分隔各项并按原顺序填写。	Set the values for Multipart Generator Distances. Enter a comma-separated list in the existing order.
+MultipartGeneratorDetectionDistance	调整“多部件生成器检测距离”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Multipart Generator Detection Distance. Submit to apply; reset restores the current game version's default.
+InertialGunProjectile	切换“惯性机炮弹”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Inertial Gun Projectile. Enable its extended behavior or turn this feature off.
+GunProjectileDrag	调整“机炮弹阻力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Drag. Submit to apply; reset restores the current game version's default.
+GunProjectileSpeed	调整“机炮弹速度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Speed. Submit to apply; reset restores the current game version's default.
+GunProjectileCoolingTime	调整“机炮弹冷却时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Cooling Time. Submit to apply; reset restores the current game version's default.
+GunProjectileForcedCoolingTime	调整“机炮弹强制冷却时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Forced Cooling Time. Submit to apply; reset restores the current game version's default.
+GunProjectileExplosionTime	调整“机炮弹爆炸时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Explosion Time. Submit to apply; reset restores the current game version's default.
+GunProjectileExplosionCount	调整“机炮弹爆炸次数”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Gun Projectile Explosion Count. Submit to apply; reset restores the current game version's default.
+GunProjectileExplosionForce	调整“机炮弹爆炸力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Explosion Force. Submit to apply; reset restores the current game version's default.
+GunProjectileExplosionRadius	调整“机炮弹爆炸半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Gun Projectile Explosion Radius. Submit to apply; reset restores the current game version's default.
+AutoGun	切换“自动机炮”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Gun. Enable its extended behavior or turn this feature off.
+AutoGunAngle	调整“自动机炮检测角度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Auto Gun Angle. Submit to apply; reset restores the current game version's default.
+AutoGunMaxDistance	调整“自动机炮检测距离”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Auto Gun Max Distance. Submit to apply; reset restores the current game version's default.
+AutoGunRandomProbability	调整“自动机炮随机概率”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Auto Gun Random Probability. Submit to apply; reset restores the current game version's default.
+RotatablePumpkin	切换“可旋转南瓜”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Pumpkin. Enable its extended behavior or turn this feature off.
+FixedPumpkin	切换“固定南瓜”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Fixed Pumpkin. Enable its extended behavior or turn this feature off.
+SeparatorConnection	切换“分离器连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Separator Connection. Enable its extended behavior or turn this feature off.
+SeparatorConnectionInnerDistance	调整“分离器连接内距离”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Separator Connection Inner Distance. Submit to apply; reset restores the current game version's default.
+SeparatorConnectionOuterDistance	调整“分离器连接外距离”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Separator Connection Outer Distance. Submit to apply; reset restores the current game version's default.
+PersistentSeparatorConnection	切换“可持久化分离器连接”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Persistent Separator Connection. Enable its extended behavior or turn this feature off.
+AutoConnector	切换“自动连接器”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Connector. Enable its extended behavior or turn this feature off.
+AutoConnectorCoolingTime	调整“自动连接器冷却时间”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Auto Connector Cooling Time. Submit to apply; reset restores the current game version's default.
+AutoConnectorMaxConnectionCount	调整“自动连接器最大连接数”的整数参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the integer parameter for Auto Connector Max Connection Count. Submit to apply; reset restores the current game version's default.
+MarkerSeparator	切换“标记式分离器”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Marker Separator. Enable its extended behavior or turn this feature off.
+RotatableGearbox	切换“可旋转变速箱”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Rotatable Gearbox. Enable its extended behavior or turn this feature off.
+SeparatedPointLightButtons	切换“分离点光源按键”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Separated Point Light Buttons. Enable its extended behavior or turn this feature off.
+SeparatedSpotLightButtons	切换“分离聚光灯按键”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Separated Spot Light Buttons. Enable its extended behavior or turn this feature off.
+LightSystem	切换“实体光源系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Light System. Enable its extended behavior or turn this feature off.
+LinearLightLength1	调整“线状光源长度1”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Linear Light Length1. Submit to apply; reset restores the current game version's default.
+LinearLightLength2	调整“线状光源长度2”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Linear Light Length2. Submit to apply; reset restores the current game version's default.
+LinearLightWidth1	调整“线状光源宽度1”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Linear Light Width1. Submit to apply; reset restores the current game version's default.
+LinearLightWidth2	调整“线状光源宽度2”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Linear Light Width2. Submit to apply; reset restores the current game version's default.
+CircleLightRadius	调整“环状光源半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Circle Light Radius. Submit to apply; reset restores the current game version's default.
+CircleLightWidth	调整“环状光源宽度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Circle Light Width. Submit to apply; reset restores the current game version's default.
+CircleLightAngle1	调整“环状光源角度1”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Circle Light Angle1. Submit to apply; reset restores the current game version's default.
+CircleLightAngle2	调整“环状光源角度2”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Circle Light Angle2. Submit to apply; reset restores the current game version's default.
+AlienLightRadiusLimitFactor	调整“核能光盾半径上限系数”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Alien Light Radius Limit Factor. Submit to apply; reset restores the current game version's default.
+LightElectricityFactor	调整“实体光源电量系数”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Light Electricity Factor. Submit to apply; reset restores the current game version's default.
+LightChargingSpeedFactor	调整“实体光源充电系数”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Light Charging Speed Factor. Submit to apply; reset restores the current game version's default.
+ReactionLight	切换“反作用实体光源”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Reaction Light. Enable its extended behavior or turn this feature off.
+SwitchableAlienLight	切换“可切换式核能光盾”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Switchable Alien Light. Enable its extended behavior or turn this feature off.
+CanLightTriggerExplosion	切换“实体光源触发爆炸”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Can Light Trigger Explosion. Enable its extended behavior or turn this feature off.
+DecelerationLight	切换“减速光源”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Deceleration Light. Enable its extended behavior or turn this feature off.
+DecelerationLightForce	调整“减速光源减速力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Deceleration Light Force. Submit to apply; reset restores the current game version's default.
+DecelerationLightMaxForce	调整“减速光源最大减速力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Deceleration Light Max Force. Submit to apply; reset restores the current game version's default.
+DecelerationLightInnerRadius	调整“减速光源内半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Deceleration Light Inner Radius. Submit to apply; reset restores the current game version's default.
+DecelerationLightOuterRadius	调整“减速光源外半径”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Deceleration Light Outer Radius. Submit to apply; reset restores the current game version's default.
+AutoControlLight	切换“自动控制光源”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Auto Control Light. Enable its extended behavior or turn this feature off.
+FuelSystem	切换“燃料系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Fuel System. Enable its extended behavior or turn this feature off.
+JetEngineForce	调整“喷气引擎驱动力”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Jet Engine Force. Submit to apply; reset restores the current game version's default.
+JetEngineFlameLength	调整“喷气引擎尾焰长度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Jet Engine Flame Length. Submit to apply; reset restores the current game version's default.
+JetEngineFlameWidth	调整“喷气引擎尾焰宽度”的数值参数。提交输入后应用，重置可恢复当前游戏版本的默认值。	Adjust the numeric parameter for Jet Engine Flame Width. Submit to apply; reset restores the current game version's default.
+ElectricalSystem	切换“电路系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Electrical System. Enable its extended behavior or turn this feature off.
+MechanicalSystem	切换“机械系统”功能。开启后使用对应的扩展行为，关闭后停用此功能。	Toggle Mechanical System. Enable its extended behavior or turn this feature off.

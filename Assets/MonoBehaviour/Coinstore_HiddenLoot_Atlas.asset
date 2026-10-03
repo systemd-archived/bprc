@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954aac3217e2c6b005b08be3c3ee04c4, type: 3}
+  m_Name: Coinstore_HiddenLoot_Atlas
+  m_EditorClassIdentifier:
+  atlasFile: {fileID: 4900000, guid: 3b97085a63eb13747a35cb3452985231, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 46754198faa544c43846304f547d13b1, type: 2}
+  - {fileID: 2100000, guid: 72998156ee9b2844cbb6886b125ec36c, type: 2}

@@ -1,0 +1,19 @@
+{
+	"version": "2022.1",
+	"entryPoints": "Main",
+	"currentThemeName": "Dark",
+	"themes": {
+		"Dark": {
+			"backgroundColor": "#000000A3",
+			"textSize": 36,
+			"textColor": "#FFFFFFFF",
+			"exceptionColor": "#FF8080FF",
+			"codeKeywordColor": "#4595E5FF",
+			"codePunctuationColor": "#B3B3B3FF",
+			"codeOperatorColor": "#B3B3B3FF",
+			"codeStringColor": "#A1C3E5FF",
+			"codeNumberColor": "#A1C3E5FF",
+			"codeCommentColor": "#808080FF"
+		}
+	}
+}

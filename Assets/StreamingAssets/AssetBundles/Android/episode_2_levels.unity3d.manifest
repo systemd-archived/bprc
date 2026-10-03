@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 3849429739
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce0a658dd5d2d953e5bd1ca76a1ca989
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 192bf7f52ae04ed85b96a66e12055c47
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ce0a658dd5d2d953e5bd1ca76a1ca989
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/assetbundles/episode_2_levels.unity3d/track_27_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/course_02_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/course_04_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_93_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_76_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_88_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/Comic_Episode_2a_middle_01.png
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_91_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_92_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_69_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_31_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_75_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/ambience_morning.ogg
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_94_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_72_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_84_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_71_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_79_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_29_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_60_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_12_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_14_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_90_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_18_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_61_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_20_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_86_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_70_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_77_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_65_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_28_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_59_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_80_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_21_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_22_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/Comic_Episode_2a_outro_01.png
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_73_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_74_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/AmbientMorning.prefab
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_85_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_87_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_89_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/Comic_Episode_2a_Intro_01.png
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_63_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_67_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/track_25_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_82_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_62_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_81_data.bytes
+- Assets/assetbundles/episode_2_levels.unity3d/scenario_58_data.bytes
+Dependencies: []

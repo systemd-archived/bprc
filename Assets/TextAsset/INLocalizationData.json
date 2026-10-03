@@ -1,0 +1,1747 @@
+{
+ "data": [
+  {
+   "id": "AppInterface_AppName",
+   "text": {
+    "en-US": "BP",
+    "zh-Hans": "新创Rover"
+   }
+  },
+  {
+   "id": "AppInterface_Name",
+   "text": {
+    "en-US": "App Interface",
+    "zh-Hans": "应用界面"
+   }
+  },
+  {
+   "id": "AppInterface_Settings",
+   "text": {
+    "en-US": "Settings",
+    "zh-Hans": "设置界面"
+   }
+  },
+  {
+   "id": "AppInterface_CommandSystem",
+   "text": {
+    "en-US": "Command System",
+    "zh-Hans": "指令系统"
+   }
+  },
+  {
+   "id": "AppInterface_DataPanel",
+   "text": {
+    "en-US": "Data Panel",
+    "zh-Hans": "数据界面"
+   }
+  },
+  {
+   "id": "AppInterface_AddonSystem",
+   "text": {
+    "en-US": "Add-on System",
+    "zh-Hans": "插件系统"
+   }
+  },
+  {
+   "id": "AppInterface_StarSea",
+   "text": {
+    "en-US": "Star Sea Settings",
+    "zh-Hans": "星海设置"
+   }
+  },
+  {
+   "id": "AppInterface_PartAdjust",
+   "text": {
+    "en-US": "More Settings",
+    "zh-Hans": "更多设置"
+   }
+  },
+  {
+   "id": "AppInterface_MoreCustom",
+   "text": {
+    "en-US": "More Custom",
+    "zh-Hans": "更多自定义"
+   }
+  },
+  {
+   "id": "PartAdjustSettings_Name",
+   "text": {
+    "en-US": "Part Adjust Settings",
+    "zh-Hans": "部件调整设置"
+   }
+  },
+  {
+   "id": "StarSeaSettings_Name",
+   "text": {
+    "en-US": "Star Sea Settings",
+    "zh-Hans": "星海设置"
+   }
+  },
+  {
+   "id": "StarSeaSettings_Performance",
+   "text": {
+    "en-US": "Performance",
+    "zh-Hans": "性能优化"
+   }
+  },
+  {
+   "id": "StarSeaSettings_Behavior",
+   "text": {
+    "en-US": "Physics Behavior",
+    "zh-Hans": "物理行为"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GunProjectileDrag",
+   "text": {
+    "en-US": "Gun Projectile Drag",
+    "zh-Hans": "机炮子弹阻力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_PartDrag",
+   "text": {
+    "en-US": "Part Drag",
+    "zh-Hans": "部件阻力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_PartAngularDrag",
+   "text": {
+    "en-US": "Part Angular Drag",
+    "zh-Hans": "部件角阻力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ShowFPS",
+   "text": {
+    "en-US": "Show FPS",
+    "zh-Hans": "显示帧率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_TargetFrameRate",
+   "text": {
+    "en-US": "Target Frame Rate",
+    "zh-Hans": "渲染帧率上限"
+   }
+  },
+  {
+   "id": "StarSeaSettings_FixedFrameRate",
+   "text": {
+    "en-US": "Fixed Frame Rate",
+    "zh-Hans": "物理计算帧率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_CircuitFrameRate",
+   "text": {
+    "en-US": "Circuit Frame Rate",
+    "zh-Hans": "电路系统计算帧率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_FrameFrameRate",
+   "text": {
+    "en-US": "Frame Frame Rate [Experimental]",
+    "zh-Hans": "框架系统计算帧率 [实验]"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AntiTunnelSpeedThreshold",
+   "text": {
+    "en-US": "Anti-Tunnel Relative Speed Threshold",
+    "zh-Hans": "防过穿相对速度阈值"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AntiTunnelPullBackDistance",
+   "text": {
+    "en-US": "Anti-Tunnel Pullback Distance",
+    "zh-Hans": "防过穿拉回距离阈值"
+   }
+  },
+  {
+   "id": "StarSeaSettings_UseMultithreadFrameSolver",
+   "text": {
+    "en-US": "Use Multithread Frame Solver [Experimental]",
+    "zh-Hans": "多线程框架配对 [实验]"
+   }
+  },
+  {
+   "id": "StarSeaSettings_EnableMultithreadCircuit",
+   "text": {
+    "en-US": "Multithread Circuit Solver [Experimental]",
+    "zh-Hans": "多线程电路求解 [实验]"
+   }
+  },
+  {
+   "id": "StarSeaSettings_UseBox3D",
+   "text": {
+    "en-US": "Use Box3D [Experimental]",
+    "zh-Hans": "使用 Box3D 物理引擎 [实验]"
+   }
+  },
+  {
+   "id": "StarSeaSettings_PhysicsSolverIterations",
+   "text": {
+    "en-US": "Physics Solver Iterations",
+    "zh-Hans": "物理求解迭代数"
+   }
+  },
+  {
+   "id": "StarSeaSettings_PhysicsEngine",
+   "text": {
+    "en-US": "Physics Engine",
+    "zh-Hans": "物理引擎"
+   }
+  },
+  {
+   "id": "StarSeaSettings_CustomPhysicsFrame",
+   "text": {
+    "en-US": "Adaptive Physics Frame Algorithm",
+    "zh-Hans": "自适应物理帧算法（关闭旧版，打开新版）"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AdaptivePhysicsFrame",
+   "text": {
+    "en-US": "Adaptive Physics Frame (0=off) (frame rate below threshold triggers performance optimization)",
+    "zh-Hans": "自适应物理帧 (0=关闭)（帧率低于该阈值介入优化性能）"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AdaptivePhysicsFrameMin",
+   "text": {
+    "en-US": "Adaptive Physics Frame Min (0=no limit; too low loses accuracy)",
+    "zh-Hans": "自适应物理帧下限 (0=不限；过低会造成精度丢失)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_MechanicalGate",
+   "text": {
+    "en-US": "Mechanical Gate",
+    "zh-Hans": "机械门"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateWidthCoefficient",
+   "text": {
+    "en-US": "Gate Width Coefficient",
+    "zh-Hans": "长度系数"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateLengthCoefficients",
+   "text": {
+    "en-US": "Gate Length Coefficients (5 types, comma separated)",
+    "zh-Hans": "宽度系数 (5种门,逗号分隔)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateOpacity",
+   "text": {
+    "en-US": "Gate Opacity (0.0~1.0)",
+    "zh-Hans": "透明度 (0.0~1.0)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateDefaultLengths",
+   "text": {
+    "en-US": "Gate Fixed Lengths (type 1~4)",
+    "zh-Hans": "默认长度 (4种固定门,逗号分隔)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateAdjustableRange",
+   "text": {
+    "en-US": "Gate Adjustable Range (min,max,step)",
+    "zh-Hans": "可调长度与步进值 (min,max,step)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateExtensionSpeed",
+   "text": {
+    "en-US": "Gate Extension Speed",
+    "zh-Hans": "伸出速度"
+   }
+  },
+  {
+   "id": "StarSeaSettings_StableMultiblock",
+   "text": {
+    "en-US": "Stable Multi-Function Block",
+    "zh-Hans": "稳定多功能块"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialPointChargeInvincible",
+   "text": {
+    "en-US": "Special Charge Invincible",
+    "zh-Hans": "特殊点电荷无敌"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeForce",
+   "text": {
+    "en-US": "Special Charge Attraction",
+    "zh-Hans": "特殊电荷吸引力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeMaxForce",
+   "text": {
+    "en-US": "Special Charge Max Force",
+    "zh-Hans": "特殊电荷最大力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeDefaultEnabled",
+   "text": {
+    "en-US": "Special Charge Default Enabled",
+    "zh-Hans": "特殊电荷默认打开"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ShowJointConnectionCount",
+   "text": {
+    "en-US": "Show Joint Connection Count",
+    "zh-Hans": "显示关节连接数"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeForceRadius",
+   "text": {
+    "en-US": "Special Charge Force Radius",
+    "zh-Hans": "特殊电荷吸力半径"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeJointBreakForce",
+   "text": {
+    "en-US": "Joint Break Force (-1=unbreakable)",
+    "zh-Hans": "关节破坏力(-1=不可破坏)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ChargeJointSnapEnabled",
+   "text": {
+    "en-US": "Charge Joint Snap",
+    "zh-Hans": "电荷关节吸合优化"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ChargeJointSize",
+   "text": {
+    "en-US": "Charge Joint Size",
+    "zh-Hans": "电荷关节大小"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeReinforceRange",
+   "text": {
+    "en-US": "Reinforce Range",
+    "zh-Hans": "加固连接范围"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeReinforceMaxCount",
+   "text": {
+    "en-US": "Reinforce Max Count",
+    "zh-Hans": "加固连接最大数量"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeReinforceBreakForce",
+   "text": {
+    "en-US": "Reinforce Break Force (-1=unbreakable)",
+    "zh-Hans": "加固连接破坏力(-1=不可破坏)"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeCollisionIgnore",
+   "text": {
+    "en-US": "Ignore Collision Between Connected Vehicles",
+    "zh-Hans": "碰撞忽略"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeJointDistance",
+   "text": {
+    "en-US": "Joint Connection Distance",
+    "zh-Hans": "关节连接距离"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeAttractionCollisionIgnore",
+   "text": {
+    "en-US": "Remove Vehicle Collision on Attraction",
+    "zh-Hans": "吸合碰撞去除"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpecialChargeForceConnect",
+   "text": {
+    "en-US": "Force Connect on Touch",
+    "zh-Hans": "强制连接"
+   }
+  },
+  {
+   "id": "StarSeaSettings_PointCharge",
+   "text": {
+    "en-US": "Point Charge",
+    "zh-Hans": "点电荷"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AnchorUmbrellaCoefficient",
+   "text": {
+    "en-US": "Anchor Umbrella Force Coefficient",
+    "zh-Hans": "锚定伞出力系数"
+   }
+  },
+  {
+   "id": "StarSeaSettings_LightAntiTunnel",
+   "text": {
+    "en-US": "Light Anti-Tunnel",
+    "zh-Hans": "光组件防过穿"
+   }
+  },
+  {
+   "id": "StarSeaSettings_DDNewConnectionLogic",
+   "text": {
+    "en-US": "DD New Connection Logic",
+    "zh-Hans": "多功能块新版连接逻辑"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GateDirectionButtons",
+   "text": {
+    "en-US": "Gate Direction Buttons",
+    "zh-Hans": "机械门方向按钮"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SwitchDirectionButtons",
+   "text": {
+    "en-US": "Switch Direction Buttons",
+    "zh-Hans": "开关方向按钮"
+   }
+  },
+  {
+   "id": "StarSeaSettings_SpdtDirectionButtons",
+   "text": {
+    "en-US": "SPDT Direction Buttons",
+    "zh-Hans": "单刀双掷方向按钮"
+   }
+  },
+  {
+   "id": "StarSeaSettings_FieldGeneratorDirectionButtons",
+   "text": {
+    "en-US": "Field Generator Direction Buttons",
+    "zh-Hans": "电平发生器方向按钮"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SlotSpacing",
+   "text": {
+    "en-US": "Save Slot Spacing",
+    "zh-Hans": "存档间隔"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SlotScale",
+   "text": {
+    "en-US": "Save Slot Button Size",
+    "zh-Hans": "存档按钮大小"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SlotPerRow",
+   "text": {
+    "en-US": "Save Slot Per Row (Wrap)",
+    "zh-Hans": "存档换行阈值(每行数量)"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SlotRowHeight",
+   "text": {
+    "en-US": "Save Slot Row Height",
+    "zh-Hans": "存档换行高度"
+   }
+  },
+  {
+   "id": "UserSettings_Save",
+   "text": {
+    "en-US": "Save",
+    "zh-Hans": "保存"
+   }
+  },
+  {
+   "id": "UserSettings_Reset",
+   "text": {
+    "en-US": "Reset",
+    "zh-Hans": "重置"
+   }
+  },
+  {
+   "id": "GeneralSettings_Name",
+   "text": {
+    "en-US": "General Settings",
+    "zh-Hans": "通用设置"
+   }
+  },
+  {
+   "id": "GeneralSettings_GravityX",
+   "text": {
+    "en-US": "Gravity (X-Axis)",
+    "zh-Hans": "重力（X轴）"
+   }
+  },
+  {
+   "id": "GeneralSettings_GravityY",
+   "text": {
+    "en-US": "Gravity (Y-Axis)",
+    "zh-Hans": "重力（Y轴）"
+   }
+  },
+  {
+   "id": "GeneralSettings_TimeScale",
+   "text": {
+    "en-US": "Time Scale",
+    "zh-Hans": "时间倍速"
+   }
+  },
+  {
+   "id": "GeneralSettings_FullScreen",
+   "text": {
+    "en-US": "Full Screen",
+    "zh-Hans": "是否全屏"
+   }
+  },
+  {
+   "id": "AppInterfaceSettings_Name",
+   "text": {
+    "en-US": "App Interface Settings",
+    "zh-Hans": "应用界面设置"
+   }
+  },
+  {
+   "id": "AppInterfaceSettings_EnterButtonPositionX",
+   "text": {
+    "en-US": "Enter Button Position (X-Axis)",
+    "zh-Hans": "启动按键 位置（X轴）"
+   }
+  },
+  {
+   "id": "AppInterfaceSettings_EnterButtonPositionY",
+   "text": {
+    "en-US": "Enter Button Position (Y-Axis)",
+    "zh-Hans": "启动按键 位置（Y轴）"
+   }
+  },
+  {
+   "id": "AppInterfaceSettings_EnterButtonAlpha",
+   "text": {
+    "en-US": "Enter Button Alpha",
+    "zh-Hans": "启动按键 不透明度"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_Name",
+   "text": {
+    "en-US": "Level Scene Settings",
+    "zh-Hans": "关卡场景设置"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_TerrainScale",
+   "text": {
+    "en-US": "Terrain Scale",
+    "zh-Hans": "地形大小比例"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_MinCameraScale",
+   "text": {
+    "en-US": "Min Field of View Scale",
+    "zh-Hans": "最小视野比例"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_MaxCameraScale",
+   "text": {
+    "en-US": "Max Field of View Scale",
+    "zh-Hans": "最大视野比例"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_HideRuntimeButtons",
+   "text": {
+    "en-US": "Hide Runtime Buttons (Except Part Buttons)",
+    "zh-Hans": "隐藏运行界面按键（除部件按键以外）"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_HideStarAndDessertCounter",
+   "text": {
+    "en-US": "Hide Star And Dessert Counter",
+    "zh-Hans": "隐藏星盒与甜点计数器"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_EnablePropertyPanel",
+   "text": {
+    "en-US": "Enable Property Panel",
+    "zh-Hans": "启用属性界面"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_EnableEnhancedPropertyPanel",
+   "text": {
+    "en-US": "Enable Enhanced Property Panel",
+    "zh-Hans": "启用进阶式属性界面"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_EnableCustomBackgroundColor",
+   "text": {
+    "en-US": "Enable Custom Background Color",
+    "zh-Hans": "启用自定义背景颜色"
+   }
+  },
+  {
+   "id": "LevelSceneSettings_CustomBackgroundColor",
+   "text": {
+    "en-US": "Custom Background Color",
+    "zh-Hans": "自定义背景颜色"
+   }
+  },
+  {
+   "id": "ButtonSettings_Name",
+   "text": {
+    "en-US": "Button Settings",
+    "zh-Hans": "按键系统设置"
+   }
+  },
+  {
+   "id": "ButtonSettings_Enabled",
+   "text": {
+    "en-US": "Enabled",
+    "zh-Hans": "启用新型按键"
+   }
+  },
+  {
+   "id": "ButtonSettings_ButtonScale",
+   "text": {
+    "en-US": "Button Scale",
+    "zh-Hans": "按键大小比例"
+   }
+  },
+  {
+   "id": "ButtonSettings_ScrollViewHeightScale",
+   "text": {
+    "en-US": "Scroll View Height Scale",
+    "zh-Hans": "滑动高度比例"
+   }
+  },
+  {
+   "id": "ButtonSettings_LayoutMode",
+   "text": {
+    "en-US": "Layout Mode",
+    "zh-Hans": "布局模式"
+   }
+  },
+  {
+   "id": "ButtonSettings_HighPartTypePriority",
+   "text": {
+    "en-US": "High Part Type Priority",
+    "zh-Hans": "部件类型优先"
+   }
+  },
+  {
+   "id": "ButtonSettings_MaxSeparationCount",
+   "text": {
+    "en-US": "Max Separation Count",
+    "zh-Hans": "最大载具分离数"
+   }
+  },
+  {
+   "id": "ButtonSettings_DisplayButtonIndex",
+   "text": {
+    "en-US": "Display Button Index",
+    "zh-Hans": "显示部件索引标记"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_Name",
+   "text": {
+    "en-US": "Contraption Data Settings",
+    "zh-Hans": "载具存档设置"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_Enabled",
+   "text": {
+    "en-US": "Enabled",
+    "zh-Hans": "启用新型载具存档"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SlotCount",
+   "text": {
+    "en-US": "Slot Count",
+    "zh-Hans": "存档数"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_LoadFormat",
+   "text": {
+    "en-US": "Load Format",
+    "zh-Hans": "加载格式"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SaveFormat",
+   "text": {
+    "en-US": "Save Format",
+    "zh-Hans": "保存格式"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_BackupData",
+   "text": {
+    "en-US": "Backup Data",
+    "zh-Hans": "备份存档数据"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_BackupOriginalData",
+   "text": {
+    "en-US": "Backup Original Data",
+    "zh-Hans": "备份旧版存档数据"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SaveAsOriginalData",
+   "text": {
+    "en-US": "Save As Original Data",
+    "zh-Hans": "保存为旧版存档"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_Export",
+   "text": {
+    "en-US": "Export Save",
+    "zh-Hans": "导出（存档）"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_ExportButton",
+   "text": {
+    "en-US": "Save a copy",
+    "zh-Hans": "另存为"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_Import",
+   "text": {
+    "en-US": "Import Save",
+    "zh-Hans": "导入（存档）"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_ImportButton",
+   "text": {
+    "en-US": "Choose file",
+    "zh-Hans": "选择文件"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_OpenFolder",
+   "text": {
+    "en-US": "Open Save Location",
+    "zh-Hans": "打开存档位置"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_OpenFolderButton",
+   "text": {
+    "en-US": "Open folder",
+    "zh-Hans": "打开文件夹"
+   }
+  },
+  {
+   "id": "PartSettings_Name",
+   "text": {
+    "en-US": "Part Settings",
+    "zh-Hans": "部件设置"
+   }
+  },
+  {
+   "id": "PartSettings_NoDrag",
+   "text": {
+    "en-US": "No Drag",
+    "zh-Hans": "部件无阻力"
+   }
+  },
+  {
+   "id": "PartSettings_DisableAlienPartParticles",
+   "text": {
+    "en-US": "Disable Alien Part Particles",
+    "zh-Hans": "关闭外星部件特效"
+   }
+  },
+  {
+   "id": "PartSettings_EnableWaterSystem",
+   "text": {
+    "en-US": "Enable Water System",
+    "zh-Hans": "启用水域系统"
+   }
+  },
+  {
+   "id": "PartSettings_WaterLevel",
+   "text": {
+    "en-US": "Water Level",
+    "zh-Hans": "水位高度"
+   }
+  },
+  {
+   "id": "PartSettings_BuoyancyCoefficient",
+   "text": {
+    "en-US": "Buoyancy Coefficient",
+    "zh-Hans": "浮力系数"
+   }
+  },
+  {
+   "id": "PartSettings_RenderDisplacedArea",
+   "text": {
+    "en-US": "Render Displaced Area",
+    "zh-Hans": "渲染排水区域"
+   }
+  },
+  {
+   "id": "PartSettings_ColoredFrameSaturation1",
+   "text": {
+    "en-US": "Colored Frame Saturation 1",
+    "zh-Hans": "染色框 饱和度1"
+   }
+  },
+  {
+   "id": "PartSettings_ColoredFrameSaturation2",
+   "text": {
+    "en-US": "Colored Frame Saturation 2",
+    "zh-Hans": "染色框 饱和度2"
+   }
+  },
+  {
+   "id": "PartSettings_ColoredFrameBrightness1",
+   "text": {
+    "en-US": "Colored Frame Brightness 1",
+    "zh-Hans": "染色框 明度1"
+   }
+  },
+  {
+   "id": "PartSettings_ColoredFrameBrightness2",
+   "text": {
+    "en-US": "Colored Frame Brightness 2",
+    "zh-Hans": "染色框 明度2"
+   }
+  },
+  {
+   "id": "PartSettings_ColoredFrameBrightness3",
+   "text": {
+    "en-US": "Colored Frame Brightness 3",
+    "zh-Hans": "染色框 明度3"
+   }
+  },
+  {
+   "id": "PartSettings_JetEngineDefaultForce",
+   "text": {
+    "en-US": "JetEngine Default Force",
+    "zh-Hans": "喷气引擎 推力默认值"
+   }
+  },
+  {
+   "id": "PartSettings_JetEngineForceStep",
+   "text": {
+    "en-US": "JetEngine Force Step",
+    "zh-Hans": "喷气引擎 推力步进值"
+   }
+  },
+  {
+   "id": "DataPanel_TimeData",
+   "text": {
+    "en-US": "Time Data",
+    "zh-Hans": "时间数据"
+   }
+  },
+  {
+   "id": "DataPanel_Time",
+   "text": {
+    "en-US": "Time",
+    "zh-Hans": "时间"
+   }
+  },
+  {
+   "id": "DataPanel_RunningTime",
+   "text": {
+    "en-US": "Running Time",
+    "zh-Hans": "运行时间"
+   }
+  },
+  {
+   "id": "DataPanel_PerformanceData",
+   "text": {
+    "en-US": "Performance Data",
+    "zh-Hans": "性能数据"
+   }
+  },
+  {
+   "id": "DataPanel_FPS",
+   "text": {
+    "en-US": "FPS",
+    "zh-Hans": "帧率"
+   }
+  },
+  {
+   "id": "DataPanel_FixedFPS",
+   "text": {
+    "en-US": "Fixed FPS",
+    "zh-Hans": "固定帧率"
+   }
+  },
+  {
+   "id": "DataPanel_AllocatedManagedHeapSize",
+   "text": {
+    "en-US": "Allocated Managed Heap Size",
+    "zh-Hans": "已分配托管内存"
+   }
+  },
+  {
+   "id": "DataPanel_ReservedManagedHeapSize",
+   "text": {
+    "en-US": "Reserved Managed Heap Size",
+    "zh-Hans": "预留托管内存"
+   }
+  },
+  {
+   "id": "DataPanel_TotalAllocatedMemorySize",
+   "text": {
+    "en-US": "Total Allocated Memory Size",
+    "zh-Hans": "已分配总内存"
+   }
+  },
+  {
+   "id": "DataPanel_TotalReservedMemorySize",
+   "text": {
+    "en-US": "Total Reserved Memory Size",
+    "zh-Hans": "预留总内存"
+   }
+  },
+  {
+   "id": "DataPanel_DeviceData",
+   "text": {
+    "en-US": "Device Data",
+    "zh-Hans": "设备数据"
+   }
+  },
+  {
+   "id": "DataPanel_DeviceModel",
+   "text": {
+    "en-US": "Device Model",
+    "zh-Hans": "设备型号"
+   }
+  },
+  {
+   "id": "DataPanel_DeviceName",
+   "text": {
+    "en-US": "Device Name",
+    "zh-Hans": "设备名称"
+   }
+  },
+  {
+   "id": "DataPanel_DeviceType",
+   "text": {
+    "en-US": "Device Type",
+    "zh-Hans": "设备类型"
+   }
+  },
+  {
+   "id": "DataPanel_OperatingSystem",
+   "text": {
+    "en-US": "Operating System",
+    "zh-Hans": "操作系统"
+   }
+  },
+  {
+   "id": "DataPanel_ProcessorType",
+   "text": {
+    "en-US": "Processor Type",
+    "zh-Hans": "处理器类型"
+   }
+  },
+  {
+   "id": "DataPanel_ProcessorFrequency",
+   "text": {
+    "en-US": "Processor Frequency",
+    "zh-Hans": "处理器频率"
+   }
+  },
+  {
+   "id": "DataPanel_ProcessorCount",
+   "text": {
+    "en-US": "Processor Count",
+    "zh-Hans": "逻辑处理器数量"
+   }
+  },
+  {
+   "id": "DataPanel_GraphicsDeviceName",
+   "text": {
+    "en-US": "Graphics Device Name",
+    "zh-Hans": "图形设备名称"
+   }
+  },
+  {
+   "id": "DataPanel_GraphicsDeviceType",
+   "text": {
+    "en-US": "Graphics Device Type",
+    "zh-Hans": "图形设备类型"
+   }
+  },
+  {
+   "id": "DataPanel_GraphicsMemorySize",
+   "text": {
+    "en-US": "Graphics Memory Size",
+    "zh-Hans": "图形设备内存"
+   }
+  },
+  {
+   "id": "DataPanel_SystemMemorySize",
+   "text": {
+    "en-US": "System Memory Size",
+    "zh-Hans": "系统内存大小"
+   }
+  },
+  {
+   "id": "DataPanel_BatteryLevel",
+   "text": {
+    "en-US": "Battery Level",
+    "zh-Hans": "设备电池电量"
+   }
+  },
+  {
+   "id": "DataPanel_BatteryStatus",
+   "text": {
+    "en-US": "Battery Status",
+    "zh-Hans": "设备电池状态"
+   }
+  },
+  {
+   "id": "AddonSystem_Developer",
+   "text": {
+    "en-US": "Developer",
+    "zh-Hans": "开发者"
+   }
+  },
+  {
+   "id": "AddonSystem_Enabled",
+   "text": {
+    "en-US": "Enabled",
+    "zh-Hans": "启用"
+   }
+  },
+  {
+   "id": "AddonSystem_AutoStart",
+   "text": {
+    "en-US": "Auto-Start",
+    "zh-Hans": "自启动"
+   }
+  },
+  {
+   "id": "AddonSystem_Reload",
+   "text": {
+    "en-US": "RELOAD",
+    "zh-Hans": "重新加载"
+   }
+  },
+  {
+   "id": "AddonSystem_Unload",
+   "text": {
+    "en-US": "UNLOAD",
+    "zh-Hans": "卸载"
+   }
+  },
+  {
+   "id": "AddonSystem_Import",
+   "text": {
+    "en-US": "IMPORT",
+    "zh-Hans": "导入"
+   }
+  },
+  {
+   "id": "AddonSystem_StateLoading",
+   "text": {
+    "en-US": "Loading",
+    "zh-Hans": "状态正常 - 加载中"
+   }
+  },
+  {
+   "id": "AddonSystem_StateFailed",
+   "text": {
+    "en-US": "Failed",
+    "zh-Hans": "状态异常"
+   }
+  },
+  {
+   "id": "AddonSystem_StateDisabled",
+   "text": {
+    "en-US": "Disabled",
+    "zh-Hans": "状态正常 - 禁用中"
+   }
+  },
+  {
+   "id": "AddonSystem_StateEnabled",
+   "text": {
+    "en-US": "Enabled",
+    "zh-Hans": "状态正常 - 启用中"
+   }
+  },
+  {
+   "id": "CommandSystem_Notice",
+   "text": {
+    "en-US": "<b>Please read the following information carefully before using this command system.</b>\n\n<b>1.</b> Due to the limitations of Unity platform, this script engine is single-threaded. Therefore, the execution time and memory usage are unlimited. The code which contains dead loops or infinite recursions may cause your application to crash.\n\n<b>2.</b> This script engine can execute arbitrary code. It means that you can perform the following operations:\n- Manipulating the local computer's file system, e.g. file reading, writing, moving, copying, deleting, etc.\n- Create, access, or terminate processes and programs in the operating system.\n- Establish network connections and perform network operations.\n\n<b>Therefore, do not execute codes from unknown sources. If your computer system is hacked or damaged while executing unknown code, this application won't accept liability for that.</b>",
+    "zh-Hans": "<b>在使用该指令系统前，请仔细阅读以下内容：</b>\n\n<b>1.</b> 由于 Unity 平台限制，该指令系统的脚本引擎仅在单线程运行。 因此，代码的运行时间与占用内存空间将不受限制。 如果您在代码中加入死循环、无限深递归等内容，可能导致应用卡死、闪退等结果；\n\n<b>2.</b> 该指令系统的脚本引擎为任意代码执行的。这意味着，您能够实施以下操作：\n- 操作本地计算机的文件系统，例如进行文件读写、移动、复制、删除等操作；\n- 创建、访问或者终止操作系统中的进程与程序；\n- 建立网络连接，进行联网操作。\n\n<b>因此，切勿随意执行来源未明、功能未明的代码。 如果您因为执行未知代码而导致计算机系统受到入侵、破坏，本应用将不承担任何责任</b>。"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBookEnabled",
+   "text": {
+    "en-US": "Hide Auxiliary Menu",
+    "zh-Hans": "隐藏辅助菜单"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBookPosX",
+   "text": {
+    "en-US": "X Position",
+    "zh-Hans": "X 位置"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBookPosY",
+   "text": {
+    "en-US": "Y Position",
+    "zh-Hans": "Y 位置"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBookSize",
+   "text": {
+    "en-US": "Button Size",
+    "zh-Hans": "按钮大小"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBook",
+   "text": {
+    "en-US": "Auxiliary Menu",
+    "zh-Hans": "辅助菜单"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBookPasteOverwriteMode",
+   "text": {
+    "en-US": "Overwrite Mode",
+    "zh-Hans": "覆盖模式"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ToolBookClipboardMax",
+   "text": {
+    "en-US": "Clipboard Slots",
+    "zh-Hans": "剪切板数量"
+   }
+  },
+  {
+   "id": "GeneralSettings_Language",
+   "text": {
+    "en-US": "Language",
+    "zh-Hans": "语言"
+   }
+  },
+  {
+   "id": "InterfaceLanguage_FollowSystem",
+   "text": {
+    "en-US": "System",
+    "zh-Hans": "跟随系统"
+   }
+  },
+  {
+   "id": "ToolBook_Copy",
+   "text": {
+    "en-US": "Copy",
+    "zh-Hans": "复制"
+   }
+  },
+  {
+   "id": "ToolBook_Paste",
+   "text": {
+    "en-US": "Paste",
+    "zh-Hans": "粘贴"
+   }
+  },
+  {
+   "id": "ToolBook_Select",
+   "text": {
+    "en-US": "Select",
+    "zh-Hans": "选区"
+   }
+  },
+  {
+   "id": "ToolBook_Undo",
+   "text": {
+    "en-US": "Undo",
+    "zh-Hans": "撤销"
+   }
+  },
+  {
+   "id": "ToolBook_Stash",
+   "text": {
+    "en-US": "Stash",
+    "zh-Hans": "暂存"
+   }
+  },
+  {
+   "id": "ToolBook_Cut",
+   "text": {
+    "en-US": "Cut",
+    "zh-Hans": "剪切"
+   }
+  },
+  {
+   "id": "ToolBook_Shape",
+   "text": {
+    "en-US": "Shape",
+    "zh-Hans": "形状"
+   }
+  },
+  {
+   "id": "ToolBook_Fill",
+   "text": {
+    "en-US": "Fill",
+    "zh-Hans": "填充"
+   }
+  },
+  {
+   "id": "ToolBook_Save",
+   "text": {
+    "en-US": "Save",
+    "zh-Hans": "存档"
+   }
+  },
+  {
+   "id": "ToolBook_Shape_Square",
+   "text": {
+    "en-US": "Square",
+    "zh-Hans": "方形"
+   }
+  },
+  {
+   "id": "ToolBook_Shape_Rectangle",
+   "text": {
+    "en-US": "Rectangle",
+    "zh-Hans": "矩形"
+   }
+  },
+  {
+   "id": "ToolBook_Shape_Circle",
+   "text": {
+    "en-US": "Circle",
+    "zh-Hans": "圆形"
+   }
+  },
+  {
+   "id": "ToolBook_Shape_Ellipse",
+   "text": {
+    "en-US": "Ellipse",
+    "zh-Hans": "椭圆"
+   }
+  },
+  {
+   "id": "ToolBook_Shape_Line",
+   "text": {
+    "en-US": "Line",
+    "zh-Hans": "直线"
+   }
+  },
+  {
+   "id": "ToolBook_Delete",
+   "text": {
+    "en-US": "Delete",
+    "zh-Hans": "删除"
+   }
+  },
+  {
+   "id": "ToolBook_DeleteSelection",
+   "text": {
+    "en-US": "Remove",
+    "zh-Hans": "删选区"
+   }
+  },
+  {
+   "id": "ToolBook_Cancel",
+   "text": {
+    "en-US": "Cancel",
+    "zh-Hans": "取消"
+   }
+  },
+  {
+   "id": "ToolBook_Overwrite",
+   "text": {
+    "en-US": "Overwrite",
+    "zh-Hans": "覆盖"
+   }
+  },
+  {
+   "id": "ToolBook_Overwrite_None",
+   "text": {
+    "en-US": "Skip",
+    "zh-Hans": "不覆盖"
+   }
+  },
+  {
+   "id": "ToolBook_Overwrite_All",
+   "text": {
+    "en-US": "Replace All",
+    "zh-Hans": "全覆盖"
+   }
+  },
+  {
+   "id": "ToolBook_RotateFormat",
+   "text": {
+    "en-US": "Rotate {0}°",
+    "zh-Hans": "转{0}°"
+   }
+  },
+  {
+   "id": "ToolBook_Material",
+   "text": {
+    "en-US": "Material",
+    "zh-Hans": "材质"
+   }
+  },
+  {
+   "id": "ToolBook_Material_Wood",
+   "text": {
+    "en-US": "Wood",
+    "zh-Hans": "木框"
+   }
+  },
+  {
+   "id": "ToolBook_Material_Metal",
+   "text": {
+    "en-US": "Metal",
+    "zh-Hans": "金属"
+   }
+  },
+  {
+   "id": "ToolBook_Material_Custom2",
+   "text": {
+    "en-US": "Custom 2",
+    "zh-Hans": "自定2"
+   }
+  },
+  {
+   "id": "ToolBook_Material_Custom3",
+   "text": {
+    "en-US": "Custom 3",
+    "zh-Hans": "自定3"
+   }
+  },
+  {
+   "id": "ToolBook_Solid",
+   "text": {
+    "en-US": "Solid",
+    "zh-Hans": "实心"
+   }
+  },
+  {
+   "id": "ToolBook_Hollow",
+   "text": {
+    "en-US": "Hollow",
+    "zh-Hans": "空心"
+   }
+  },
+  {
+   "id": "ToolBook_NameSlot",
+   "text": {
+    "en-US": "Name Slot",
+    "zh-Hans": "命名槽位"
+   }
+  },
+  {
+   "id": "ToolBook_NamePlaceholder",
+   "text": {
+    "en-US": "Enter a name...",
+    "zh-Hans": "输入名称..."
+   }
+  },
+  {
+   "id": "ToolBook_SlotFormat",
+   "text": {
+    "en-US": "Slot {0}",
+    "zh-Hans": "槽位 {0}"
+   }
+  },
+  {
+   "id": "PartSettings_MilitaryFeatures",
+   "text": {
+    "en-US": "Military Features",
+    "zh-Hans": "军事版功能"
+   }
+  },
+  {
+   "id": "GeneralSettings_OpenVersionSelector",
+   "text": {
+    "en-US": "Version Selector",
+    "zh-Hans": "打开版本选择器"
+   }
+  },
+  {
+   "id": "GeneralSettings_ShowDebugPopup",
+   "text": {
+    "en-US": "Show debug popup",
+    "zh-Hans": "显示debug悬浮窗"
+   }
+  },
+  {
+   "id": "AppInterface_CodeEditor",
+   "text": {
+    "en-US": "Code Editor",
+    "zh-Hans": "代码编辑器"
+   }
+  },
+  {
+   "id": "AppInterface_ClassBrowser",
+   "text": {
+    "en-US": "Class Browser",
+    "zh-Hans": "类目录"
+   }
+  },
+  {
+   "id": "StarSeaSettings_OptimizedCircuit",
+   "text": {
+    "en-US": "[Experimental] Optimized Circuit Solver",
+    "zh-Hans": "电路求解优化[实验]"
+   }
+  },
+  {
+   "id": "ButtonSettings_ButtonIndexQwerty",
+   "text": {
+    "en-US": "Part Index Optimization",
+    "zh-Hans": "部件索引优化"
+   }
+  },
+  {
+   "id": "ContraptionDataSettings_SeparateConfig",
+   "text": {
+    "en-US": "Separate Config",
+    "zh-Hans": "配置分离"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GameRunCollapse",
+   "text": {
+    "en-US": "Collapse While Running",
+    "zh-Hans": "游戏运行的收起"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GameRunQuickSpeed",
+   "text": {
+    "en-US": "Quick Speed Multiplier",
+    "zh-Hans": "游戏运行变速倍率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_BlasterTNTDestroy",
+   "text": {
+    "en-US": "Shockwave Bomb Destroy",
+    "zh-Hans": "冲击波炸弹销毁"
+   }
+  },
+  {
+   "id": "StarSeaSettings_NewTimeScale",
+   "text": {
+    "en-US": "New Time Scale",
+    "zh-Hans": "新型时间倍速"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AutoEnterVersionB",
+   "text": {
+    "en-US": "Auto Enter Innovation B",
+    "zh-Hans": "自动进入新创B"
+   }
+  },
+  {
+   "id": "StarSeaSettings_CameraFollowMode",
+   "text": {
+    "en-US": "Camera Follow Mode",
+    "zh-Hans": "摄像机跟随模式"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GravityGroup",
+   "text": {
+    "en-US": "Universal Gravity",
+    "zh-Hans": "万有引力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_UniversalGravity",
+   "text": {
+    "en-US": "Universal Gravity",
+    "zh-Hans": "万有引力"
+   }
+  },
+  {
+   "id": "StarSeaSettings_UniversalGravityConstant",
+   "text": {
+    "en-US": "Gravitational Constant",
+    "zh-Hans": "引力常数"
+   }
+  },
+  {
+   "id": "StarSeaSettings_UniversalGravityAttenuation",
+   "text": {
+    "en-US": "Attenuation Multiplier",
+    "zh-Hans": "衰减倍率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_AdvancedDisplayGraphical",
+   "text": {
+    "en-US": "Advanced Display Graphical",
+    "zh-Hans": "高级显示图形化"
+   }
+  },
+  {
+   "id": "StarSeaSettings_CollisionBounciness",
+   "text": {
+    "en-US": "Collision Bounciness",
+    "zh-Hans": "载具碰撞弹性"
+   }
+  },
+  {
+   "id": "StarSeaSettings_DiagonalSenderRange",
+   "text": {
+    "en-US": "Diagonal Sender Range",
+    "zh-Hans": "斜向发射器连接范围"
+   }
+  },
+  {
+   "id": "StarSeaSettings_QuickPartSwitch",
+   "text": {
+    "en-US": "Quick Part Switch",
+    "zh-Hans": "快捷切换部件"
+   }
+  },
+  {
+   "id": "StarSeaSettings_QuickPartSwitchMax",
+   "text": {
+    "en-US": "Quick Part Switch Max",
+    "zh-Hans": "快捷切换最大显示数"
+   }
+  },
+  {
+   "id": "StarSeaSettings_QuickPartSwitchPersistent",
+   "text": {
+    "en-US": "Quick Part Switch Persistent",
+    "zh-Hans": "快捷切换常驻"
+   }
+  },
+  {
+   "id": "StarSeaSettings_QuickInheritParams",
+   "text": {
+    "en-US": "Quick Inherit Part Values",
+    "zh-Hans": "快捷继承"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ShowModifiedParams",
+   "text": {
+    "en-US": "Mark Modified Parts",
+    "zh-Hans": "显示修改"
+   }
+  },
+  {
+   "id": "StarSeaSettings_EnableParamPanel",
+   "text": {
+    "en-US": "Enable Param Menu",
+    "zh-Hans": "启用设置菜单"
+   }
+  },
+  {
+   "id": "ToolBook_RunPause",
+   "text": {
+    "en-US": "Pause",
+    "zh-Hans": "暂停"
+   }
+  },
+  {
+   "id": "ToolBook_RunSpeed",
+   "text": {
+    "en-US": "Speed",
+    "zh-Hans": "变速"
+   }
+  },
+  {
+   "id": "ToolBook_RunRestart",
+   "text": {
+    "en-US": "Restart",
+    "zh-Hans": "sr重开"
+   }
+  },
+  {
+   "id": "ToolBook_RunCycleFollow",
+   "text": {
+    "en-US": "Cycle View",
+    "zh-Hans": "切换视角"
+   }
+  },
+  {
+   "id": "ToolBook_RunFollowNone",
+   "text": {
+    "en-US": "Default",
+    "zh-Hans": "默认"
+   }
+  },
+  {
+   "id": "ToolBook_RunSwitch",
+   "text": {
+    "en-US": "Switch",
+    "zh-Hans": "切换"
+   }
+  },
+  {
+   "id": "GeneralSettings_Rc1Controls",
+   "text": {
+    "en-US": "RC1 Controls",
+    "zh-Hans": "RC1 操作"
+   }
+  },
+  {
+   "id": "AppInterface_Optimization",
+   "text": {
+    "en-US": "Optimization",
+    "zh-Hans": "优化设置"
+   }
+  },
+  {
+   "id": "StarSeaSettings_OptimizationBackend",
+   "text": {
+    "en-US": "Physics Backend",
+    "zh-Hans": "物理后端"
+   }
+  },
+  {
+   "id": "StarSeaSettings_OptimizationTimestep",
+   "text": {
+    "en-US": "Timestep & Frame Rate",
+    "zh-Hans": "时间步与帧率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_OptimizationThreading",
+   "text": {
+    "en-US": "Multithreading & Solve Rate",
+    "zh-Hans": "多线程与求解频率"
+   }
+  },
+  {
+   "id": "StarSeaSettings_OptimizationDiagnostics",
+   "text": {
+    "en-US": "Diagnostics",
+    "zh-Hans": "调试与度量"
+   }
+  },
+  {
+   "id": "StarSeaSettings_PhysicsWorkerCount",
+   "text": {
+    "en-US": "Physics Worker Threads (0=auto)",
+    "zh-Hans": "物理线程数（0 = 自动）"
+   }
+  },
+  {
+   "id": "StarSeaSettings_GpuPhysicsCompute",
+   "text": {
+    "en-US": "GPU Force Calculations (Gravity / Point Charges)",
+    "zh-Hans": "GPU 计算加速（万有引力／普通点电荷）"
+   }
+  },
+  {
+   "id": "StarSeaSettings_ShowPhysicsStats",
+   "text": {
+    "en-US": "Physics Stats Overlay",
+    "zh-Hans": "物理统计浮层"
+   }
+  },
+  {
+   "id": "GeneralSettings_NoGridMode",
+   "text": {
+    "en-US": "Grid-less Build Mode (parts placed off the lattice, snapping to neighbours)",
+    "zh-Hans": "无网格模式（部件不吸附格点，改为吸附相邻部件）"
+   }
+  },
+  {
+   "id": "GeneralSettings_MergeGridlessGroups",
+   "text": {
+    "en-US": "Merge free-build groups at overlapping connection circles",
+    "zh-Hans": "连接点圆圈重叠时合并无网格框"
+   }
+  },
+  {
+   "id": "GeneralSettings_IgnoreGridlessOverlap",
+   "text": {
+    "en-US": "Ignore Overlapping Parts in Grid-less Mode",
+    "zh-Hans": "无网格重合部件不碰撞"
+   }
+  },
+  {
+   "id": "GeneralSettings_MultiLayerBuild",
+   "text": {
+    "en-US": "BPIR Multi-layer Building / Connections",
+    "zh-Hans": "BPIR 多图层建造 / 连接系统"
+   }
+  },
+  {
+   "id": "GeneralSettings_LayerSelfCollision",
+   "text": {
+    "en-US": "Same-layer Self Collision (connected, unmodified shapes)",
+    "zh-Hans": "同图层自碰撞（同一连接组件内的原形部件）"
+   }
+  },
+  {
+   "id": "GeneralSettings_UiScale",
+   "text": {
+    "en-US": "UI Scale (0.5–1.5, 1 = default; adapts to resolution)",
+    "zh-Hans": "UI 缩放（0.5–1.5，1 = 默认；自动适配分辨率）"
+   }
+  },
+  {
+   "id": "GeneralSettings_AeronauticsBlueprint",
+   "text": {
+    "en-US": "Aeronautics Blueprint Rendering",
+    "zh-Hans": "Aeronautics 蓝图部件渲染"
+   }
+  },
+  {
+   "id": "GeneralSettings_FineRotationStep",
+   "text": {
+    "en-US": "Fine Rotation Step (degrees, 0=off)",
+    "zh-Hans": "部件精细旋转步长（度，0 = 关闭）"
+   }
+  }
+ ]
+}

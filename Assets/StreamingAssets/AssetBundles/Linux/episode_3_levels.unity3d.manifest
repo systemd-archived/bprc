@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 2244306128
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dad54e59cedf161f2fce5b02a23a5f53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 192bf7f52ae04ed85b96a66e12055c47
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dad54e59cedf161f2fce5b02a23a5f53
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/assetbundles/episode_3_levels.unity3d/Level_35_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_13_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test03_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_39_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_44_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_19_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/ambient_plateau.ogg
+- Assets/assetbundles/episode_3_levels.unity3d/Level_10_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test27_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test06_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test18_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test07_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test09_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test48_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_38_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test16_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test14_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_02_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test04_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_37_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_08_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_47_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test50_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_42_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_34_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_16_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_41_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_09_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_03_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_36_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Comic_Episode_2_Intro_01.png
+- Assets/assetbundles/episode_3_levels.unity3d/test08_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_46_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test49_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test01_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_04_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_01_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_06_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_40_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test10_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_12_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/test17_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Comic_Episode_Outro_01.png
+- Assets/assetbundles/episode_3_levels.unity3d/Level_11_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/AmbientPlateau.prefab
+- Assets/assetbundles/episode_3_levels.unity3d/test12_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_45_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_07_data.bytes
+- Assets/assetbundles/episode_3_levels.unity3d/Level_48_data.bytes
+Dependencies: []

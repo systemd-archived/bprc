@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: spriteicondata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee21872bdc4ea3d4bcff6001026db80, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  icons:
+  - tag: '[snout]'
+    spriteId: 6cca625e-ba41-43c3-9b41-f1a1a6112b9c
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 82e332935c4853b4e8b1677c6422f964, type: 2}
+    quad:
+  - tag: '[skull]'
+    spriteId: 5bacce61-5e3e-4316-a5db-441d9482005c
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 82e332935c4853b4e8b1677c6422f964, type: 2}
+    quad:
+  - tag: '[statue]'
+    spriteId: a29a87b0-8208-444c-afb3-fe6f8f484a38
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 82e332935c4853b4e8b1677c6422f964, type: 2}
+    quad:
+  - tag: '[star]'
+    spriteId: bea511cc-232f-4fc8-baf8-cf514b102875
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 82e332935c4853b4e8b1677c6422f964, type: 2}
+    quad:
+  - tag: '[scrap]'
+    spriteId: 13201c95-fd65-408c-bb83-205194f4db4d
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 51a0aef4553d86a4b9d4cb54e6aace9e, type: 2}
+    quad:
+  - tag: '[common_star]'
+    spriteId: 1fcbefcd-9f06-4e31-8fde-0cb11326efad
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 51a0aef4553d86a4b9d4cb54e6aace9e, type: 2}
+    quad:
+  - tag: '[rare_star]'
+    spriteId: 112da5d6-4dad-49f6-ad7a-25d9cfb43137
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 51a0aef4553d86a4b9d4cb54e6aace9e, type: 2}
+    quad:
+  - tag: '[epic_star]'
+    spriteId: 03a45ca1-5383-43b9-aecf-94dd39ca9a5d
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 51a0aef4553d86a4b9d4cb54e6aace9e, type: 2}
+    quad:
+  - tag: '[legendary_icon]'
+    spriteId: 7b1d588f-5e44-48e1-89a9-7651d9c390f7
+    scale: 1
+    atlasReference: {fileID: 2100000, guid: 51a0aef4553d86a4b9d4cb54e6aace9e, type: 2}
+    quad:

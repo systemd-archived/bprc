@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Contraption
+  - Ground
+  - ParticleEmitter
+  - Goal
+  - LandingArea
+  - ParallaxLayerFar
+  - ParallaxLayerNear
+  - ParallaxLayerSky
+  - World
+  - Terrain
+  - HUDCamera
+  - Effector
+  - TerrainMeshDetail
+  - Water
+  - Static
+  - Challenge
+  - Clouds
+  - ParallaxLayerForeground
+  - ParallaxLayerFixedFollowCamera
+  - Bird
+  - Slingshot
+  - KingPigMouth
+  - Sharp
+  - MainMenuPromoPopup
+  - IceSurface
+  - Dynamic
+  - ParallaxLayerFurther
+  - Prop
+  - Collectable
+  - DynamicCollectable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Contraption
+  - HUD
+  - Terrain
+  - AttachedSandbag
+  - DroppedSandbag
+  - Overlay
+  - NonCollidingPart
+  - Bird
+  - Food
+  - Mouth
+  - Collectables
+  - FixedRigidbody
+  - IceGround
+  - IcePart
+  - Light
+  - HingeDoor
+  - BreakableWall
+  - BreakableTrigger
+  - MultiplayerParts
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Popup
+    uniqueID: 3126098701
+    locked: 0

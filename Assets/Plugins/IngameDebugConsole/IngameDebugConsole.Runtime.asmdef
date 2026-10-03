@@ -1,0 +1,20 @@
+{
+    "name": "IngameDebugConsole.Runtime",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.androidjni",
+            "expression": "",
+            "define": "UNITY_ANDROID_JNI"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 6aea44d63c1eab44aa46a74e7c88461f
+timeCreated: 1778244429
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 64
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - AngryBirdsPiggies
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a3faad77e6b059247aa094f6b100950a, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 2838400457
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49a9b9d6040666991b58dd5d42c6e1c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 192bf7f52ae04ed85b96a66e12055c47
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 49a9b9d6040666991b58dd5d42c6e1c3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_06_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_97_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_100_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/InFlightMusicHalloween.prefab
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_10_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/track_04_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/test55_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_55_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/track_30_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/test57_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/action_halloween_02_v01.ogg
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_26_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_05_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/ambient_halloween.ogg
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_37_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_24_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_13_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/BuildingMusicHalloween.prefab
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_83_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/test30_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_21_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/track_13_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/Comic_Halloween_Episode_Outro.png
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_31_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/Comic_Halloween_Episode_Intro.png
+- Assets/assetbundles/episode_5_levels.unity3d/AmbientHalloween.prefab
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_98_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_44_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_08_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_45_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_99_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_46_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_02_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_78_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_09_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/Comic_Halloween_Episode_Mid.png
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_95_data.bytes
+- Assets/assetbundles/episode_5_levels.unity3d/scenario_96_data.bytes
+Dependencies: []

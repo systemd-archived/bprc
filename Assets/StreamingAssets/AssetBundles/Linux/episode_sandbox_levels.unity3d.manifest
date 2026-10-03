@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3645216196
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f21af5764e304052e0cb1ea8a3a29f99
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f21af5764e304052e0cb1ea8a3a29f99
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_03_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_04_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_02_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Episode_6_Ice Sandbox_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_05_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_09_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_07_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Episode_6_Tower Sandbox_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_08_data.bytes
+- Assets/assetbundles/episode_sandbox_levels.unity3d/Level_Sandbox_10_data.bytes
+Dependencies: []
